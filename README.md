@@ -1,7 +1,7 @@
 ### Oi, eu sou o Douglas 🙂
-Sou estudante de Análise e Desenvolvimento de Sistemas na Fatec de Mogi das Cruzes
+Sou estudante de Desenvolvimento de Software Multiplaforma na Fatec Zona Leste
 
-Atualmente eu tento seguir mais na área de programação web com alguns pequenos projetos pessoais.
+Atualmente eu foco em fazer alguns projetos pessoais e projetos da faculdade, para procurar algo na área de desenvolvimento.
 
 Tenho conhecimento com as tecnologias
 
@@ -9,6 +9,7 @@ Tenho conhecimento com as tecnologias
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 
 
 
