@@ -1,6 +1,6 @@
 ### Oi, eu sou o Douglas 🙂
 
-<h5>📅 19 anos</h5>
+<h5>📅 19 anos - 2004</h5>
 <h5>🎓 Formado em Desenvolvimento de Sistemas - Etec de Guaianazes</h5>
 <h5>👨‍💻 Cursando Desenvolvimento de Software Multiplataforma 3/6 - Fatec Zona Leste</h5>
 
