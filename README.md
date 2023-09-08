@@ -1,8 +1,8 @@
 ### Oi, eu sou o Douglas 🙂
 
-<h5>📅 19 anos - 2004</h5>
-<h5>🎓 Formado em Desenvolvimento de Sistemas - Etec de Guaianazes</h5>
-<h5>👨‍💻 Cursando Desenvolvimento de Software Multiplataforma 3/6 - Fatec Zona Leste</h5>
+<h4>📅 19 anos - 2004</h4>
+<h4>🎓 Formado em Desenvolvimento de Sistemas - Etec de Guaianazes</h4>
+<h4>👨‍💻 Cursando Desenvolvimento de Software Multiplataforma 3/6 - Fatec Zona Leste</h4>
 
 <div align="center">
    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=DouglasDans&show_icons=true&theme=tokyonight"> 
@@ -11,7 +11,7 @@
 
 
 ## Tenho conhecimento e aprendendo as tecnologias
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,nodejs,react,nextjs,mongodb,mysql,spring,figma,git,java,php)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,nodejs,react,nextjs,mongodb,mysql,java,spring,figma,git)](https://skillicons.dev)
  
 ## Links para contato
 <a href="https://www.linkedin.com/in/douglasdans/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
