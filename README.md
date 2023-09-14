@@ -11,7 +11,7 @@
 
 
 ## Tenho conhecimento e aprendendo as tecnologias
-[![My Skills](https://skillicons.dev/icons?i=js,nodejs,react,nextjs,mongodb,mysql,java,spring,figma,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,mongodb,mysql,java,spring,figma,git)](https://skillicons.dev)
  
 ## Links para contato
 <a href="https://www.linkedin.com/in/douglasdans/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
