@@ -1,7 +1,11 @@
-import Image from 'next/image'
+import Main from "@/components/Main"
+import MainContainer from "@/components/Main/Container/Container"
+import React from "react"
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    "Hello World"
+    <Main/>
   )
 }
+
+export default Home
