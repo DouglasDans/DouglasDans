@@ -1,6 +1,6 @@
 .main-container{
    background-image: url("/bg-section-1.svg");
-   background-size: auto;
+   background-size: cover;
    background-repeat: no-repeat;
 
    width: 100%;
