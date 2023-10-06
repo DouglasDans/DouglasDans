@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -9,15 +10,15 @@ export default function Header({}: Props) {
       <h2 className='title-name'><span>{">>"}</span> Douglas Nascimento<span>_</span></h2>
 
       <nav className='header-nav'>
-        <a href="#habilidades">
+        <Link href="#habilidades">
           <h4>Minhas Habilidades</h4>
-        </a>
-        <a href="#tecnologias">
+        </Link>
+        <Link href="#tecnologias">
           <h4>Minhas Tecnologias</h4>
-        </a>
-        <a href="#portfolio">
+        </Link>
+        <Link href="#portfolio">
           <h4>Meu Portfolio</h4>
-        </a>
+        </Link>
       </nav>
 
     </div>
