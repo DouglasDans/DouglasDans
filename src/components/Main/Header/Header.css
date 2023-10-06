@@ -1,0 +1,27 @@
+.header{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header .title-name span{
+   color: var(--blue-color);
+}
+
+.header .header-nav{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.header .header-nav a{
+   text-decoration: none;
+   transition: 200ms;
+
+   padding: 12px 1rem;
+}
+
+.header .header-nav a:hover h4{
+   color: var(--blue-color);
+   transition: 200ms;
+}
