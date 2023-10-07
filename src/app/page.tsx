@@ -1,9 +1,12 @@
 import Main from "@/components/Main"
-import React from "react"
+import React, { Fragment } from "react"
 
 const Home: React.FC = () => {
   return (
-    <Main/>
+    <Fragment>
+      <Main/>
+
+    </Fragment>
   )
 }
 

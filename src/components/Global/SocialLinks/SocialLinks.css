@@ -1,0 +1,15 @@
+.social-links{
+   display: flex;
+   align-items: center;
+   gap: 45px;
+}
+
+.social-links .link svg :hover{
+   transition: 200ms;
+   fill: var(--blue-color) !important;
+}  
+
+.social-links .link svg{
+   transition: 200ms;
+   fill: white;
+}  
