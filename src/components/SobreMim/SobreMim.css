@@ -7,3 +7,10 @@
    align-items: center;
    gap: 30px;
 }
+
+.sobre-mim-container p {
+   font-size: 1rem;
+
+   margin: 0 15%;
+   text-align: center;
+}
