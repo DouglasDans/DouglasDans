@@ -2,6 +2,7 @@ import React from 'react'
 import './Banner.css'
 import Image from 'next/image'
 import SocialLinks from '@/components/Global/SocialLinks/SocialLinks'
+import ButtonLinks from '@/components/Global/ButtonLinks/ButtonLinks'
 
 type Props = {}
 
@@ -17,9 +18,11 @@ export default function Banner({}: Props) {
 
         <SocialLinks/>
 
-        aaaa
+        <ButtonLinks/>
       </div>
-      <Image alt='' src={""} height={100} width={100}/>
+      <div className="img-container">
+        <img className='img-perfil' alt='Imagem de perfil' src={"/photo.png"}/>
+      </div>
     </div>
   )
 }

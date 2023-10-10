@@ -9,20 +9,16 @@ export default function SocialLinks({ }: Props) {
    return (
       <div className="social-links">
          <Link className='link' href={"https://discord.com/users/684092812312313927"}>
-            {/* <Image alt='' src={"/social-logos/discord.svg"} height={30} width={30} /> */}
-            <Discord />
+            <button title='Discord' className='btn-link'><Discord /></button>
          </Link>
          <Link className='link' href={"https://github.com/DouglasDans"}>
-            {/* <Image alt='' src={"/social-logos/github.svg"} height={30} width={30} /> */}
-            <Github />
+            <button title='Discord' className='btn-link'><Github /></button>
          </Link>
          <Link className='link' href={"https://www.instagram.com/douglas.dans/"}>
-            {/* <Image alt='' src={"/social-logos/instagram.svg"} height={30} width={30} /> */}
-            <Instagram />
+            <button title='Discord' className='btn-link'><Instagram /></button>
          </Link>
          <Link className='link' href={"https://www.linkedin.com/in/douglasdans/"}>
-            {/* <Image alt='' src={"/social-logos/linkedin.svg"} height={30} width={30} /> */}
-            <Linkedin/>
+            <button title='Discord' className='btn-link'><Linkedin /></button>
          </Link>
       </div>
    )

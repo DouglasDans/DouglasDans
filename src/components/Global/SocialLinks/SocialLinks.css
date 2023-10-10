@@ -4,7 +4,13 @@
    gap: 45px;
 }
 
-.social-links .link svg :hover{
+.social-links .link .btn-link{
+   border: 0;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+.social-links .link .btn-link:hover > svg{
    transition: 200ms;
    fill: var(--blue-color) !important;
 }  
