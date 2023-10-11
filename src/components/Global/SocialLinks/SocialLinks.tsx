@@ -8,16 +8,16 @@ type Props = {}
 export default function SocialLinks({ }: Props) {
    return (
       <div className="social-links">
-         <Link className='link' href={"https://discord.com/users/684092812312313927"}>
+         <Link target="_blank" className='link' href={"https://discord.com/users/684092812312313927"}>
             <button title='Discord' className='btn-link'><Discord /></button>
          </Link>
-         <Link className='link' href={"https://github.com/DouglasDans"}>
+         <Link target="_blank" className='link' href={"https://github.com/DouglasDans"}>
             <button title='Discord' className='btn-link'><Github /></button>
          </Link>
-         <Link className='link' href={"https://www.instagram.com/douglas.dans/"}>
+         <Link target="_blank" className='link' href={"https://www.instagram.com/douglas.dans/"}>
             <button title='Discord' className='btn-link'><Instagram /></button>
          </Link>
-         <Link className='link' href={"https://www.linkedin.com/in/douglasdans/"}>
+         <Link target="_blank" className='link' href={"https://www.linkedin.com/in/douglasdans/"}>
             <button title='Discord' className='btn-link'><Linkedin /></button>
          </Link>
       </div>
