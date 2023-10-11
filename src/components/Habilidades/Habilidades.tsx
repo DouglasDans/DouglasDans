@@ -7,7 +7,7 @@ type Props = {}
 export default function Habilidades({ } : Props) {
    return (
       <div className="habilidades-container">
-         <h2>Habilidades</h2>
+         <h2>Habilidades<span className='font-blue-color'>_</span></h2>
 
          <div className="cards-container">
             <Card>

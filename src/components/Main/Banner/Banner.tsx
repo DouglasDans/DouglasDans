@@ -1,6 +1,5 @@
 import React from 'react'
 import './Banner.css'
-import Image from 'next/image'
 import SocialLinks from '@/components/Global/SocialLinks/SocialLinks'
 import ButtonLinks from '@/components/Global/ButtonLinks/ButtonLinks'
 
@@ -12,8 +11,8 @@ export default function Banner({}: Props) {
       <div className="info-banner">
 
         <div className="title">
-          <h1>Olá! eu sou o Douglas</h1>
-          <h1>Desenvolvedor Fullstack_</h1>
+          <h2>Olá! eu sou o Douglas</h2>
+          <h1>Desenvolvedor Fullstack<span className='font-blue-color'>_</span></h1>
         </div>
 
         <SocialLinks/>

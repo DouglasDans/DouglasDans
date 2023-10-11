@@ -1,6 +1,12 @@
 @font-face { 
-  font-family: "Cascadia Code"; 
-  src: url('../fonts/CascadiaCode.ttf'); 
+  font-family: "Cascadia Code Semibold"; 
+  src: url('../fonts/CascadiaCode-SemiBold.ttf'); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: "Cascadia Code Bold"; 
+  src: url('../fonts/CascadiaCode-Bold.ttf'); 
   font-weight: normal; 
   font-style: normal; 
 }
@@ -22,18 +28,25 @@
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Cascadia Code', monospace;
-  font-weight: 600;
+  font-family: 'Cascadia Code Semibold', monospace;
+}
+
+h1{
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 :root{
   --bg-color: #09103B;
   --blue-color: #02A4FF;
   --card-border-color: #2A0D5B;
-}
-
-body {
-  background-color: var(--bg-color);
 }
 
 ::-webkit-scrollbar{
@@ -58,4 +71,12 @@ body {
 ::-webkit-scrollbar-thumb::hover{
   width: 6px;
   border-radius: 10px;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.font-blue-color{
+  color: var(--blue-color);
 }

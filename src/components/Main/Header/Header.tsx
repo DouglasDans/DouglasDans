@@ -7,7 +7,7 @@ type Props = {}
 export default function Header({}: Props) {
   return (
     <div className="header">
-      <h2 className='title-name'><span>{">>"}</span> Douglas Nascimento<span>_</span></h2>
+      <h3 className='title-name'><span className='font-blue-color'>{">>"}</span> Douglas Nascimento<span className='font-blue-color'>_</span></h3>
 
       <nav className='header-nav'>
         <Link href="#habilidades">
