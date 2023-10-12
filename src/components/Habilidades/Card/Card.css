@@ -1,0 +1,23 @@
+.card-container{
+   background-color: var(--bg-color);
+   border: 2px solid var(--card-border-color);
+   border-radius: 10px;
+}
+
+.card-habilidades {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   width: 300px;
+
+   gap: 0.3rem;
+
+   padding: 2rem;
+}
+
+.card-habilidades .material-symbols-rounded{
+   font-size: 5rem;
+   color: var(--icon-color);
+}

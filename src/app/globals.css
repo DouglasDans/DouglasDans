@@ -43,10 +43,15 @@ h3 {
   font-size: 1.5rem;
 }
 
+h4 {
+  font-size: 1.3rem;
+}
+
 :root{
   --bg-color: #09103B;
   --blue-color: #02A4FF;
   --card-border-color: #2A0D5B;
+  --icon-color: #947ED6
 }
 
 ::-webkit-scrollbar{

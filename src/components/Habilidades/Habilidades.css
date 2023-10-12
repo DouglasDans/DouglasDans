@@ -7,3 +7,8 @@
    align-items: center;
    gap: 30px;
 }
+
+.habilidades-container .cards-container{
+   display: flex;
+   flex-direction: row;
+}

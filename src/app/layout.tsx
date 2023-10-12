@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -13,6 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
+      <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+      </head>
       <body>{children}</body>
     </html>
   )
