@@ -4,5 +4,11 @@
       "icon": "school",
       "title": "Em formação",
       "desc": "Desenvolvimento de Software Multiplataforma \n Fatec ZL (Jun - 2025)"
+   },
+   {
+      "id": 2,
+      "icon": "published_with_changes",
+      "title": "Evolução",
+      "desc": "Vontade de aprender e sempre pensando em evoluir, pessoalmente e profissionalmente"
    }
 ]

@@ -21,3 +21,7 @@
    font-size: 5rem;
    color: var(--icon-color);
 }
+
+.card-habilidades span {
+   font-size: 0.8rem;
+}
