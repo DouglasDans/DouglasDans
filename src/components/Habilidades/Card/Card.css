@@ -9,12 +9,12 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-
-   width: 300px;
+   text-align: center;
+   width: 250px;
 
    gap: 0.3rem;
 
-   padding: 2rem;
+   padding: 3rem 1rem;
 }
 
 .card-habilidades .material-symbols-rounded{
