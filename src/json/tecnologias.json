@@ -1,0 +1,23 @@
+[
+   {
+      "id": 1,
+      "nome": "TypeScript",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Iniciante",
+      "imgName": "ts.png"
+   },
+   {
+      "id": 2,
+      "nome": "JavaScript",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Iniciante",
+      "imgName": "ts.png"
+   },
+   {
+      "id": 3,
+      "nome": "JarviScript",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Iniciante",
+      "imgName": "ts.png"
+   } 
+]
