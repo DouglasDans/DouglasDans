@@ -11,7 +11,7 @@ export default function Card({ nome, estudandoHoje, nivelHabilidade, imgName}: P
    return (
       <Fragment>
          <div className="tech-logo-container">
-            <img src="/tech-logos/ts.svg" alt="" srcset="" />
+            <img src="/tech-logos/ts.svg" alt="" />
          </div>
       </Fragment>
    )
