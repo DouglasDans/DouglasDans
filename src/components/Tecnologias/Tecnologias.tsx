@@ -10,19 +10,17 @@ export default function Tecnologias({}: Props) {
 
    const mapTech = tecnologias.map(item => {
       return(
-         <div key={item.id}>
-            {item.nome}
-         </div>
+         <Card key={item.id} nome={item.nome} estudandoHoje={item.estudandoHoje} nivelHabilidade={item.nivelHabilidade} imgName={item.imgName}/>
       )
    })
 
-
    return (
     <div className='tecnologias-container' id='tecnologias'>
-      <h2>Tecnologias<span className='font-blue-color'>_</span></h2>
+      <h2>Minhas Principais Tecnologias<span className='font-blue-color'>_</span></h2>
 
-      {mapTech}
-      
+      <div className="cards-container">
+         {mapTech}
+      </div>
     </div>
   )
 }

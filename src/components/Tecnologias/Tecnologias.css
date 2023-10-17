@@ -7,3 +7,12 @@
    align-items: center;
    gap: 30px;
 }
+
+.tecnologias-container .cards-container{
+   display: flex;
+   flex-direction: row;
+
+   gap: 2rem;
+
+   transition: 600ms;
+}

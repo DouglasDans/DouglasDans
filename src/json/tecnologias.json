@@ -1,23 +1,44 @@
 [
    {
       "id": 1,
-      "nome": "TypeScript",
+      "nome": "JavaScript",
       "estudandoHoje": true,
-      "nivelHabilidade": "Iniciante",
-      "imgName": "ts.png"
+      "nivelHabilidade": "Avançado",
+      "imgName": "js.svg"
    },
    {
       "id": 2,
-      "nome": "JavaScript",
+      "nome": "TypeScript",
       "estudandoHoje": true,
       "nivelHabilidade": "Iniciante",
-      "imgName": "ts.png"
+      "imgName": "ts.svg"
    },
    {
       "id": 3,
-      "nome": "JarviScript",
+      "nome": "React",
       "estudandoHoje": true,
       "nivelHabilidade": "Iniciante",
-      "imgName": "ts.png"
-   } 
+      "imgName": "react.svg"
+   },
+   {
+      "id": 4,
+      "nome": "Java",
+      "estudandoHoje": false,
+      "nivelHabilidade": "Iniciante",
+      "imgName": "java.svg"
+   },
+   {
+      "id": 3,
+      "nome": "Figma",
+      "estudandoHoje": false,
+      "nivelHabilidade": "Intermediário",
+      "imgName": "figma.svg"
+   },
+   {
+      "id": 3,
+      "nome": "Git",
+      "estudandoHoje": false,
+      "nivelHabilidade": "Intermediário",
+      "imgName": "git.svg"
+   }
 ]
