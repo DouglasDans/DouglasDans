@@ -15,7 +15,7 @@
 
 <h3>Tenho conhecimento e aprendendo as tecnologias</h3>
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,mysql,java,spring,figma,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,java,spring,git,figma,mysql)](https://skillicons.dev)
  
 <h3>Links para contato</h3> 
 
