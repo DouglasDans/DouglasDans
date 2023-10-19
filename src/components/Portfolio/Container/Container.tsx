@@ -7,7 +7,7 @@ interface Props {
 
 const Container: React.FC<Props> = ({ children }) => {
    return (
-      <section className='main-container'>
+      <section className='main-portfolio-container'>
          {children}
       </section>
    )
