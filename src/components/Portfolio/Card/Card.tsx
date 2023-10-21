@@ -7,6 +7,7 @@ type Props = {
   title: string,
   desc: string,
   tech: Array<Array<string>>,
+  projectImage: string,
   projectLink: string,
   links: Array<Array<string>>
 }
