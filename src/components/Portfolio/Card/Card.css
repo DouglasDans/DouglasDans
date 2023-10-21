@@ -8,20 +8,60 @@
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   align-items: center;
-   text-align: center;
+   align-items: flex-start;
    width: 380px;
 
-   gap: 0.8rem;
+   gap: 1rem;
+   padding: 1rem;}
 
-   padding: 3rem 1rem;
+.card-portfolio .img-card .img{
+   width: 100%;
+   border-radius: 10px;
 }
 
-.card-habilidades .material-symbols-rounded{
-   font-size: 5rem;
-   color: var(--icon-color);
+.card-portfolio .card-portfolio-content{
+   display: grid;
+   grid-template-areas: 
+      "title title code-link"
+      "desc desc desc"
+      "tech-logos tech-logos tech-logos";
+   width: 100%;
+   gap: 10px;
 }
 
-.card-habilidades span {
-   font-size: 0.8rem;
+.card-portfolio .card-portfolio-content .title{
+   grid-area: title;
+}
+
+.card-portfolio .card-portfolio-content .code-link{
+   grid-area: code-link;
+   text-decoration: none;
+
+   display: flex;
+   justify-content: flex-end;
+}
+
+.card-portfolio .card-portfolio-content .code-link button{
+   cursor: pointer;
+
+   border: 0;
+   border-radius: 100px;
+   color: var(--bg-color);
+   font-family: "Cascadia Code Bold";
+   padding: 0.3rem 0.5rem;
+
+   display: flex;
+   align-items: center;
+   gap: 0.3rem;
+}
+
+.card-portfolio .card-portfolio-content .desc{
+   grid-area: desc;
+}
+
+.card-portfolio .card-portfolio-content .tech-logos{
+   grid-area: tech-logos;
+
+   display: flex;
+   gap: 10px;
 }

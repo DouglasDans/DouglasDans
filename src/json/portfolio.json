@@ -1,0 +1,16 @@
+[
+   {
+      "id": 1,
+      "title": "Wikiflix",
+      "desc": "Wikiflix é um projeto que utiliza React.JS e dados da TMDB API para exibir informações de filmes e séries em uma interface bonita e intuitiva.",
+      "tech": [
+         ["JavaScript", "js.svg"],
+         ["React", "react.svg"]
+      ],
+      "projectImage": "wikiflix.png",
+      "projectLink": "https://wikiflix.vercel.app/",
+      "links": [
+         ["GitHub", "https://github.com/DouglasDans/Wikiflix"]
+      ]
+   }
+]
