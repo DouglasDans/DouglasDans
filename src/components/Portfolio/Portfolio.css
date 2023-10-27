@@ -12,7 +12,6 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: flex-start;
-   justify-content: space-between;
    /* grid-template-columns: repeat(3, 1fr); */
    gap: 1rem;
 }
