@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer"
 import Habilidades from "@/components/Habilidades/Habilidades"
 import Main from "@/components/Main"
 import Portfolio from "@/components/Portfolio/Portfolio"
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
       <Habilidades/>
       <Tecnologias/>
       <Portfolio/>
+      <Footer/>
     </Fragment>
   )
 }
