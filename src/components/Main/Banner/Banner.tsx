@@ -11,7 +11,7 @@ export default function Banner({}: Props) {
       <div className="info-banner">
 
         <div className="title">
-          <h2>Olá! eu sou o Douglas</h2>
+          <h2>Olá! eu sou o Douglas 👨‍💻</h2>
           <h1>Desenvolvedor Fullstack<span className='font-blue-color'>_</span></h1>
         </div>
 
@@ -20,7 +20,7 @@ export default function Banner({}: Props) {
         <ButtonLinks/>
       </div>
       <div className="img-container">
-        <img className='img-perfil' alt='Imagem de perfil' src={"/photo.png"}/>
+        <img className='img-perfil' alt='Imagem de perfil' src={"/photo.jpg"}/>
       </div>
     </div>
   )
