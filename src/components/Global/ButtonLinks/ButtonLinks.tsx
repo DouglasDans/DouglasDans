@@ -8,7 +8,7 @@ type Props = {}
 export default function ButtonLinks({}: Props) {
    return (
       <div className="button-links-container row">
-         <Link href={"/"}>
+         <Link href={"#portfolio"}>
             <button className='btn-link'>Meu Portfólio</button>
          </Link>
          <Link href={"/"}>
