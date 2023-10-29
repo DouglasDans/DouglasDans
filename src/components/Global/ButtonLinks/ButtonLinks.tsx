@@ -3,11 +3,13 @@ import React from 'react'
 
 import './ButtonLinks.css'
 
-type Props = {}
+type Props = {
+   flexColumn: Boolean
+}
 
-export default function ButtonLinks({}: Props) {
+export default function ButtonLinks({flexColumn}: Props) {
    return (
-      <div className="button-links-container row">
+      <div className={"button-links-container " + (flexColumn ? "column" : "row")}>
          <Link href={"#portfolio"}>
             <button className='btn-link'>Meu Portfólio</button>
          </Link>
