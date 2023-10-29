@@ -17,6 +17,71 @@
 .card-portfolio .img-card .img{
    width: 100%;
    border-radius: 10px;
+   aspect-ratio: 16 / 9;
+}
+.card-portfolio .img-card a{
+   text-decoration: none;
+}
+
+.card-portfolio .img-card .hover-link{
+   position: relative;
+   z-index: 40;
+
+   opacity: 0;
+
+   backdrop-filter: blur(3px);
+   -webkit-backdrop-filter: blur(3px);
+   transition: 200ms;
+
+   width: 100%;
+   border-radius: 10px;
+   aspect-ratio: 16 / 9;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   margin-bottom: -194px;
+}
+.card-portfolio .img-card .hover-link:hover{
+   position: relative;
+   z-index: 40;
+
+   opacity: 1;
+   cursor: pointer;
+
+   background-color: rgba(17, 17, 17, 0.315);
+   backdrop-filter: blur(3px);
+   -webkit-backdrop-filter: blur(3px);
+   transition: 200ms;
+
+   width: 100%;
+   border-radius: 10px;
+   aspect-ratio: 16 / 9;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   margin-bottom: -194px;
+}
+
+.card-portfolio .img-card .hover-link button{
+   cursor: pointer;
+
+   background-color: black;
+   padding: 0.5rem 1rem;
+   border: 0;
+   border-radius: 500px;
+
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   gap: 0.5rem;
+}
+.card-portfolio .img-card .hover-link button .open-in{
+   font-family: 'Cascadia Code Semibold' !important;
+   font-weight: 500;
 }
 
 .card-portfolio .card-portfolio-content{
@@ -55,6 +120,13 @@
    display: flex;
    align-items: center;
    gap: 0.3rem;
+
+   transition: 200ms;
+}
+
+.card-portfolio .card-portfolio-content .code-link button:hover{
+   opacity: 0.7;
+   transition: 200ms;
 }
 
 .card-portfolio .card-portfolio-content .desc{

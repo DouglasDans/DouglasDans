@@ -16,7 +16,13 @@ export default function Card(props: Props) {
   return (
    <div className='card-container card-portfolio'>
       <div className="img-card">
-        <Link href={props.projectLink}>
+        <Link target="_blank" href={props.projectLink}>
+          <div className='hover-link'>
+            <button>
+              <span className="material-symbols-rounded">open_in_new</span>
+              <span className='open-in'>Abrir em uma nova guia</span>
+            </button>
+          </div>
           <img className='img' src={`/portfolio-img/${props.projectImage}`} alt="" />
         </Link>
       </div>

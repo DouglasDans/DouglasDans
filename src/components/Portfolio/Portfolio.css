@@ -4,9 +4,9 @@
    gap: 1rem;
 }
 
-.portfolio-container span{
+/* .portfolio-container span{
    font-weight: 600;
-}
+} */
 
 .portfolio-container .portfolio-card-container{
    display: flex;
