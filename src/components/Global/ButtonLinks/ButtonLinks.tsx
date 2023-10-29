@@ -13,7 +13,7 @@ export default function ButtonLinks({flexColumn}: Props) {
          <Link href={"#portfolio"}>
             <button className='btn-link'>Meu Portfólio</button>
          </Link>
-         <Link href={"/"}>
+         <Link target="_blank" href={"/cv.pdf"}>
             <button className='btn-link'>Meu Currículo</button>
          </Link>
       </div>
