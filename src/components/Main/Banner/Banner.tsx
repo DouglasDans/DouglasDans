@@ -17,7 +17,7 @@ export default function Banner({}: Props) {
 
         <SocialLinks/>
 
-        <ButtonLinks/>
+        <ButtonLinks flexColumn={false}/>
       </div>
       <div className="img-container">
         <img className='img-perfil' alt='Imagem de perfil' src={"/photo.jpg"}/>
