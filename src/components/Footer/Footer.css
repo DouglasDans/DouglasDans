@@ -40,3 +40,31 @@
 
    gap: 40px;
 }
+
+@media screen and (max-width: 750px) {
+   .footer-container {
+      padding: 50px 70px;
+   
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+
+      gap: 30px;
+   }
+   .footer-container .footer-right{
+      padding: 50px 70px;
+   
+      display: flex;
+      align-items: center;
+
+      gap: 50px;
+   }
+   
+   .footer-container .footer-nav-links{  
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+
+      gap: 50px;
+   }
+}
