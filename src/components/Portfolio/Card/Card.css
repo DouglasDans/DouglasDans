@@ -140,3 +140,19 @@
    display: flex;
    gap: 10px;
 }
+
+@media screen and (max-width: 600px) {
+   .portfolio-card-container{
+      display: grid;
+      justify-content: center !important;
+      align-items: center;
+   }
+}
+
+@media screen and (max-width: 950px) {
+   .portfolio-card-container{
+      display: grid;
+      justify-content: center !important;
+      align-items: center;
+   }
+}
