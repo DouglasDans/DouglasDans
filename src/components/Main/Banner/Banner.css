@@ -81,4 +81,15 @@
       display: flex;
       justify-content: center;
    }
+
+   .banner-container .img-container .img-perfil{
+      width: 250px;
+      border-radius: 100%;
+   
+      border: 3px solid white;
+   }
+}
+
+@media screen and (max-width: 950px) {
+   
 }

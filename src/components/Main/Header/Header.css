@@ -26,16 +26,12 @@
    transition: 200ms;
 }
 
-@media screen and (max-width: 800px) {
-   .main-portfolio-container{
-      background-image: url("/bg-section-2.svg");
-      background-size:auto;
-      background-repeat: no-repeat;
+@media screen and (max-width: 900px) {
    
-      width: 10%;
-      height: auto;
-   
-      padding: 10px 10px;
+
+   .header {
+      justify-content: center;
+      /* padding: 1rem; */
    }
 
    .header .header-nav a{
