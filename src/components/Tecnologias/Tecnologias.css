@@ -16,3 +16,19 @@
 
    transition: 600ms;
 }
+
+@media screen and (max-width: 600px) {
+   .tecnologias-container h2 {
+      text-align: center;
+   }
+
+   .tecnologias-container .cards-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      flex-direction: row;
+   
+      gap: 2rem;
+   
+      transition: 600ms;
+   }
+}
