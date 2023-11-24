@@ -47,5 +47,12 @@
       "estudandoHoje": false,
       "nivelHabilidade": "Intermediário",
       "imgName": "git.svg"
+   },
+   {
+      "id": 8,
+      "nome": "MySQL",
+      "estudandoHoje": false,
+      "nivelHabilidade": "Intermediário",
+      "imgName": "mysql.svg"
    }
 ]
