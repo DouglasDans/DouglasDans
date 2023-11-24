@@ -2,14 +2,14 @@
    {
       "id": 1,
       "nome": "JavaScript",
-      "estudandoHoje": true,
+      "estudandoHoje": false,
       "nivelHabilidade": "Avançado",
       "imgName": "js.svg"
    },
    {
       "id": 2,
       "nome": "TypeScript",
-      "estudandoHoje": false,
+      "estudandoHoje": true,
       "nivelHabilidade": "Iniciante",
       "imgName": "ts.svg"
    },
@@ -22,20 +22,27 @@
    },
    {
       "id": 4,
+      "nome": "SpringBoot",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Iniciante",
+      "imgName": "Spring_Boot.svg"
+   },
+   {
+      "id": 5,
       "nome": "Java",
-      "estudandoHoje": false,
+      "estudandoHoje": true,
       "nivelHabilidade": "Iniciante",
       "imgName": "java.svg"
    },
    {
-      "id": 3,
+      "id": 6,
       "nome": "Figma",
       "estudandoHoje": false,
       "nivelHabilidade": "Intermediário",
       "imgName": "figma.svg"
    },
    {
-      "id": 3,
+      "id": 7,
       "nome": "Git",
       "estudandoHoje": false,
       "nivelHabilidade": "Intermediário",
