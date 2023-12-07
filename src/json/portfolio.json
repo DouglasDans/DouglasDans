@@ -16,7 +16,7 @@
    {
       "id": 2,
       "title": "Projetos Web",
-      "desc": "Meu repositório de projetos simples que eu fiz principalmente para praticar JavaScript. Alguns dos projetos foram ideias vindas do Frontend Mentor.",
+      "desc": "Meu repositório de projetos que eu fiz principalmente para praticar JavaScript. Alguns dos projetos foram ideias do site Frontend Mentor.",
       "tech": [
          ["JavaScript", "js.svg"]
       ],

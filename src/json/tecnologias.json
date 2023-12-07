@@ -22,7 +22,7 @@
    },
    {
       "id": 4,
-      "nome": "SpringBoot",
+      "nome": "Spring",
       "estudandoHoje": true,
       "nivelHabilidade": "Iniciante",
       "imgName": "Spring_Boot.svg"
