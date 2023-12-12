@@ -12,18 +12,5 @@
       "links": [
          ["GitHub", "https://github.com/DouglasDans/Wikiflix"]
       ]
-   },
-   {
-      "id": 2,
-      "title": "Projetos Web",
-      "desc": "Meu repositório de projetos que eu fiz principalmente para praticar JavaScript. Alguns dos projetos foram ideias do site Frontend Mentor.",
-      "tech": [
-         ["JavaScript", "js.svg"]
-      ],
-      "projectImage": "projetos-web.png",
-      "projectLink": "https://douglasdansweb.vercel.app/",
-      "links": [
-         ["GitHub", "https://github.com/DouglasDans/Projetos-Web"]
-      ]
    }
 ]
