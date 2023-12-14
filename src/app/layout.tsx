@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import './globals.css'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: 'Douglas Nascimento - Site Pessoal',
@@ -17,7 +18,10 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics/>  
+      </body>
     </html>
   )
 }
