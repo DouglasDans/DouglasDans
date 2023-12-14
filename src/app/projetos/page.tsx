@@ -10,7 +10,7 @@ export default function page({}: Props) {
    return (
       <Fragment>
          <Container>
-            <Header/>
+            {/* <Header/> */}
             <ProjectsContainer/>
          </Container>
          <Footer/>
