@@ -18,7 +18,7 @@ export default function Portfolio({}: Props) {
             <span>Meus projetos pessoais, acadêmicos e profissionais em que eu já trabalhei</span>
             <div className="portfolio-card-container">
             {
-               portfolio.map(item => {
+               portfolio.map((item : any) => {
                   return(
                      <ProjectCard key={item.id} {...item} />
                   )
