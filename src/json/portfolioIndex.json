@@ -17,7 +17,9 @@
       "desc": "Desenvolvido em JavaScript. Utiliza a API do GitHub para fornecer informações de usuários do próprio GitHub. Desenvolvido pra praticar chamadas em API e também aplicação de modo claro e escuro por meio de JS e CSS.",
       "categoria": "pessoal",
       "tech": [
-         ["JavaScript", "js.svg"]
+         ["JavaScript", "js.svg"],
+         ["HMTL", "html.svg"],
+         ["CSS", "css.svg"]
       ],
       "projectImage": "devfind.png",
       "projectLink": "https://douglasdans.github.io/projetos-pessoais/html-css-js/Github-Devfinder/",
@@ -30,7 +32,9 @@
       "desc": "Recriação do clássico screensaver de DVD usando JavaScript puro. Projeto criado principalmente para treinar manipulação de DOM com JavaScript",
       "categoria": "pessoal",
       "tech": [
-         ["JavaScript", "js.svg"]
+         ["JavaScript", "js.svg"],
+         ["HMTL", "html.svg"],
+         ["CSS", "css.svg"]
       ],
       "projectImage": "dvd.png",
       "projectLink": "https://douglasdans.github.io/projetos-pessoais/html-css-js/DVD-Screensaver/",
