@@ -12,32 +12,32 @@ type Props = {
   links: Array<Array<string>>
 }
 
-export default function Card(props: Props) {
+export default function Card({projectLink, projectImage, title, links, desc, tech} : Props, key: Number) {
   return (
    <div className='card-container card-portfolio'>
       <div className="img-card">
-        <Link target="_blank" href={props.projectLink}>
+        <Link target="_blank" href={projectLink}>
           <div className='hover-link'>
             <button>
               <span className="material-symbols-rounded">open_in_new</span>
               <span className='open-in'>Abrir em uma nova guia</span>
             </button>
           </div>
-          <img className='img' src={`/portfolio-img/${props.projectImage}`} alt="" />
+          <img className='img' src={`/portfolio-img/${projectImage}`} alt="" />
         </Link>
       </div>
       <div className="card-portfolio-content">
-          <h3 className='title'>{props.title}</h3>
-          <Link className='code-link' href={props.links[0][1]}>
+          <h3 className='title'>{title}</h3>
+          <Link className='code-link' href={links[0][1]}>
             <button>
               <Github/>
               Github
             </button>
           </Link>
-          <p className='desc'>{props.desc}</p>
+          <p className='desc'>{desc}</p>
           <div className="tech-logos">
             {
-              props.tech.map((item, index) => {
+              tech.map((item, index) => {
                 return(
                   <img key={index} src={`/tech-logos/${item[1]}`} height={"25px"} alt={item[0]} />
                 )

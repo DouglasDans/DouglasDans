@@ -4,7 +4,9 @@ import Card from './Card/Card'
 
 import './Portfolio.css'
 
-import portfolio from "@/json/portfolio.json"
+import portfolio from "@/json/portfolioIndex.json"
+import Link from 'next/link'
+import ProjectCard from '../Global/ProjectCard/ProjectCard'
 
 type Props = {}
 
@@ -18,10 +20,13 @@ export default function Portfolio({}: Props) {
             {
                portfolio.map(item => {
                   return(
-                     <Card key={item.id} {...item} />
+                     <ProjectCard key={item.id} {...item} />
                   )
                })
             }
+            </div>
+            <div className="ver-mais-container">
+               <Link href={"/projetos"}><button className='ver-mais-btn'>Ver Mais</button></Link>
             </div>
          </div>
       </Container>

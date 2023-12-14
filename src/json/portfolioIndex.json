@@ -24,5 +24,18 @@
       "links": [
          ["GitHub", "https://github.com/DouglasDans/projetos-pessoais"]
       ]
+   },
+   {
+      "title": "DVD Screensaver",
+      "desc": "Recriação do clássico screensaver de DVD usando JavaScript puro. Projeto criado principalmente para treinar manipulação de DOM com JavaScript",
+      "categoria": "pessoal",
+      "tech": [
+         ["JavaScript", "js.svg"]
+      ],
+      "projectImage": "dvd.png",
+      "projectLink": "https://douglasdans.github.io/projetos-pessoais/html-css-js/DVD-Screensaver/",
+      "links": [
+         ["GitHub", "https://github.com/DouglasDans/projetos-pessoais"]
+      ]
    }
 ]
