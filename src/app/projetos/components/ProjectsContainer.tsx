@@ -6,6 +6,7 @@ import portfolio from "@/json/portfolio.json"
 import './ProjectsContainer.css'
 import getCategoriaProjetos from '../functions/getCategoriaProjetos'
 import ProjectCard from '@/components/Global/ProjectCard/ProjectCard'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -32,7 +33,14 @@ export default function ProjectsContainer({}: Props) {
   return (
     <div className='projects-container'>
       <div className="projects-container-header">
-        <h4>Meus projetos</h4>
+        <div style={{display : "flex", flexDirection: "row", gap: "1rem"}}>
+          <Link href={"/"}>
+            <span className="material-symbols-rounded">
+              arrow_back
+            </span>
+          </Link>
+          <h4>Meus projetos</h4>
+        </div>
 
         {/* <div className="tabs-container">
           <button value={"pessoal"} onClick={handleCategoriaButton} className={'project-tab-button' + (tabCategoria == 'pessoal' ? " active" : "")}>Pessoais</button>

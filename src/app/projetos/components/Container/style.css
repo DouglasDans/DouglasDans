@@ -1,4 +1,4 @@
-.main-container{
+.project-container{
    background-image: url("/bg-section-1.svg");
    background-size: cover;
    background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 800px) {
-   .main-container{
+   .project-container{
       background-image: url("/bg-section-1.svg");
       background-size: cover;
       background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 }
 
 @media screen and (max-width: 1060px) {
-   .main-container{
+   .project-container{
       background-image: url("/bg-section-1.svg");
       background-size: cover;
       background-repeat: no-repeat;

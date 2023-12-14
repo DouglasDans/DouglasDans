@@ -1,4 +1,4 @@
-import Footer from "@/components/Footer/Footer"
+import Footer from "@/components/Global/Footer/Footer"
 import Habilidades from "@/components/Habilidades/Habilidades"
 import Main from "@/components/Main"
 import Portfolio from "@/components/Portfolio/Portfolio"

@@ -15,7 +15,7 @@ export default function Portfolio({}: Props) {
       <Container>
          <div className="portfolio-container" id='portfolio'>
             <h2>Meu Portfólio<span className='font-blue-color'>_</span></h2>
-            <span>Meus projetos pessoais, acadêmicos e profissionais em que eu já trabalhei</span>
+            <span>Meus projetos pessoais que eu desenvolvi ao longo dos anos</span>
             <div className="portfolio-card-container">
             {
                portfolio.map((item : any) => {
@@ -30,6 +30,5 @@ export default function Portfolio({}: Props) {
             </div>
          </div>
       </Container>
-
    )
 }
