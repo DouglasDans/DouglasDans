@@ -16,6 +16,32 @@
    gap: 1rem;
 }
 
+.ver-mais-container{
+   width: 100%;
+
+   display: flex;
+   justify-content: center;
+}
+
+.ver-mais-container .ver-mais-btn{
+   border: 0;
+   border-radius: 100px;
+
+   padding: 10px 20px;
+   color: var(--bg-color);
+
+   font-family: 'Cascadia Code Bold', monospace;
+   font-size: 1.2rem;
+
+   transition: 200ms;
+}
+.ver-mais-container .ver-mais-btn:hover{
+   cursor: pointer;
+   opacity: 0.7;
+
+   transition: 200ms;
+}
+
 @media screen and (max-width: 950px) {
    .portfolio-container {
       display: grid;

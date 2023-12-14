@@ -1,7 +1,7 @@
 import React from 'react'
-import Container from './Container/Container'
-import Header from './Header/Header'
+import Header from '../Header/Header'
 import Banner from './Banner/Banner'
+import Container from '../Container/Container'
 
 export default function Main() {
    return (

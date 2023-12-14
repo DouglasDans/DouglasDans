@@ -7,6 +7,10 @@
    height: 100vh;
 
    padding: 50px 70px;
+
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
 }
 
 @media screen and (max-width: 800px) {
@@ -19,6 +23,10 @@
       height: 100vh;
    
       padding: 20px 20px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
    }
 }
 
@@ -32,5 +40,9 @@
       height: 100vh;
    
       padding: 20px 20px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
    }
 }
