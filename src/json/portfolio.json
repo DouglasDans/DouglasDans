@@ -18,7 +18,9 @@
       "desc": "Calculadora de gorjeta em JavaScript, utilizando o mockup do FrontendMentor para a interface. Desenvolvida como parte do aprendizado em lógica de programação e design de interfaces.",
       "categoria": "pessoal",
       "tech": [
-         ["JavaScript", "js.svg"]
+         ["JavaScript", "js.svg"],
+         ["HMTL", "html.svg"],
+         ["CSS", "css.svg"]
       ],
       "projectImage": "gorjeta.png",
       "projectLink": "https://douglasdans.github.io/projetos-pessoais/html-css-js/Calculadora-de-Gorjeta/",
@@ -31,7 +33,9 @@
       "desc": "Desenvolvido em JavaScript. Utiliza a API do GitHub para fornecer informações de usuários do próprio GitHub. Desenvolvido pra praticar chamadas em API e também aplicação de modo claro e escuro por meio de JS e CSS.",
       "categoria": "pessoal",
       "tech": [
-         ["JavaScript", "js.svg"]
+         ["JavaScript", "js.svg"],
+         ["HMTL", "html.svg"],
+         ["CSS", "css.svg"]
       ],
       "projectImage": "devfind.png",
       "projectLink": "https://douglasdans.github.io/projetos-pessoais/html-css-js/Github-Devfinder/",
@@ -44,7 +48,9 @@
       "desc": "Jogo da Velha interativo em JavaScript puro, destacando habilidades de manipulação de DOM para uma experiência de usuário dinâmica.",
       "categoria": "pessoal",
       "tech": [
-         ["JavaScript", "js.svg"]
+         ["JavaScript", "js.svg"],
+         ["HMTL", "html.svg"],
+         ["CSS", "css.svg"]
       ],
       "projectImage": "velha.png",
       "projectLink": "https://douglasdans.github.io/projetos-pessoais/html-css-js/Jogo-da-Velha/",
@@ -57,7 +63,9 @@
       "desc": "Versão antiga da Wikiflix desenvolvida com JavaScript puro, HTML e CSS, utilizando a TMDB API para exibir informações de filmes e séries. Desenvolvido principalmente pra praticar chamadas de API.",
       "categoria": "pessoal",
       "tech": [
-         ["JavaScript", "js.svg"]
+         ["JavaScript", "js.svg"],
+         ["HMTL", "html.svg"],
+         ["CSS", "css.svg"]
       ],
       "projectImage": "wikilegacy.png",
       "projectLink": "https://douglasdans.github.io/projetos-pessoais/html-css-js/Wikiflix/",
@@ -70,7 +78,9 @@
       "desc": "Recriação do clássico screensaver de DVD usando JavaScript puro. Projeto criado principalmente para treinar manipulação de DOM com JavaScript",
       "categoria": "pessoal",
       "tech": [
-         ["JavaScript", "js.svg"]
+         ["JavaScript", "js.svg"],
+         ["HMTL", "html.svg"],
+         ["CSS", "css.svg"]
       ],
       "projectImage": "dvd.png",
       "projectLink": "https://douglasdans.github.io/projetos-pessoais/html-css-js/DVD-Screensaver/",
