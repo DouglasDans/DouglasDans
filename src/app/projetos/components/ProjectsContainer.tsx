@@ -14,7 +14,7 @@ export default function ProjectsContainer({}: Props) {
   const [tabCategoria, setTabCategoria] = useState("pessoal")
   const [itensPortfolio, setItensPortfolio] = useState<Object[]>(getCategoriaProjetos(portfolio, tabCategoria))
 
-  function handleCategoriaButton(event){
+  function handleCategoriaButton(event : any){
     setTabCategoria(event.target.value)
   }
 
@@ -48,7 +48,7 @@ export default function ProjectsContainer({}: Props) {
 
       <div className="projects-card-container">
             {
-               itensPortfolio.map((item, index) => {
+               itensPortfolio.map((item : any, index) => {
                   return(
                      <ProjectCard key={index} {...item} />
                   )
