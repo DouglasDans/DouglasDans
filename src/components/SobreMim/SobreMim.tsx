@@ -8,9 +8,7 @@ export default function SobreMim({}: Props) {
       <section className='sobre-mim-container' id='sobre-mim'>
          <h2>Sobre mim<span className='font-blue-color'>_</span></h2>
          <p>
-            Olá, eu sou o Douglas, sou desenvolvedor Fullstack e moro na Zona Leste de São Paulo 🙂
-            <br/>
-            Sou desenvolvedor FullStack, atualmente trabalhando em projetos pessoais e acadêmicos para praticar e melhorar minhas habilidades cada vez mais.
+            Desde 2019, tenho me dedicado ao estudo e aprimoramento para me tornar um desenvolvedor, expandindo minhas habilidades em frontend e backend. <br/> Ao longo desse período, desenvolvi diversos projetos para enriquecer minha experiência teórica e prática. Atualmente, estou disponível para contratação e também para projetos freelancer, ansioso para aplicar todo o conhecimento adquirido ao longo desses anos e alcançar ainda mais na minha jornada profissional.
          </p>
       </section>
    )
