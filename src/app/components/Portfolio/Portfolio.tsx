@@ -1,12 +1,11 @@
 import React from 'react'
 import Container from './Container/Container'
-import Card from './Card/Card'
 
 import './Portfolio.css'
 
 import portfolio from "@/json/portfolioIndex.json"
 import Link from 'next/link'
-import ProjectCard from '../Global/ProjectCard/ProjectCard'
+import ProjectCard from '@/components/ProjectCard/ProjectCard'
 
 type Props = {}
 

@@ -1,10 +1,12 @@
-import Footer from "@/components/Global/Footer/Footer"
-import Habilidades from "@/components/Habilidades/Habilidades"
-import Main from "@/components/Main"
-import Portfolio from "@/components/Portfolio/Portfolio"
-import SobreMim from "@/components/SobreMim/SobreMim"
-import Tecnologias from "@/components/Tecnologias/Tecnologias"
 import React, { Fragment } from "react"
+import Main from "./components/Main"
+import SobreMim from "./components/SobreMim/SobreMim"
+import Habilidades from "./components/Habilidades/Habilidades"
+import Tecnologias from "./components/Tecnologias/Tecnologias"
+import Portfolio from "./components/Portfolio/Portfolio"
+import Footer from "@/components/Footer/Footer"
+
+
 
 const Home: React.FC = () => {
   return (

@@ -2,11 +2,23 @@
    {
       "id": 1,
       "icon": "school",
-      "title": "Em formação",
-      "desc": "Desenvolvimento de Software Multiplataforma \n Fatec ZL (Jun - 2025)"
+      "title": "Ensino Técnico",
+      "desc": "Desenvolvimento Sistemas - Etec de Guaianazes (2019 - 2021)"
    },
    {
       "id": 2,
+      "icon": "school",
+      "title": "Ensino Superior",
+      "desc": "Desenvolvimento de Software Multiplataforma - Fatec ZL (2022 - 2025)"
+   },
+   {
+      "id": 3,
+      "icon": "published_with_changes",
+      "title": "Evolução",
+      "desc": "Desenvolvimento de interfaces modernas e intuitivas"
+   },
+   {
+      "id": 3,
       "icon": "published_with_changes",
       "title": "Evolução",
       "desc": "Vontade de aprender e sempre pensando em evoluir, pessoalmente e profissionalmente"

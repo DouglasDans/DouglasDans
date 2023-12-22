@@ -1,7 +1,7 @@
 import React from 'react'
 import './Banner.css'
-import SocialLinks from '@/components/Global/SocialLinks/SocialLinks'
-import ButtonLinks from '@/components/Global/ButtonLinks/ButtonLinks'
+import SocialLinks from '@/components/SocialLinks/SocialLinks'
+import ButtonLinks from '@/components/ButtonLinks/ButtonLinks'
 
 type Props = {}
 
