@@ -1,8 +1,8 @@
 ### Oi, eu sou o Douglas 🙂
 
 <h4>📅 19 anos - 2004</h4>
-<h4>🎓 Formado em Desenvolvimento de Sistemas - Etec de Guaianazes</h4>
-<h4>🎓 Cursando Desenvolvimento de Software Multiplataforma 3/6 - Fatec Zona Leste</h4>
+<h4>🎓 Formado em Desenvolvimento de Sistemas - Etec de Guaianazes (2019 - 2021)</h4>
+<h4>🎓 Cursando Desenvolvimento de Software Multiplataforma 4/6 (2022 - 2025) - Fatec Zona Leste</h4>
 <h4>👨‍💻 Atualmente estudando ReactJS, TypeScript e Spring</h4>
 
 <br>
