@@ -3,7 +3,6 @@ import './Card.css'
 import Link from 'next/link'
 
 type Props = {
-  id: Number,
   title: string,
   desc: string,
   tech: Array<Array<string>>,

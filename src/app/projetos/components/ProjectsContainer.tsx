@@ -5,7 +5,7 @@ import portfolio from "@/json/portfolio.json"
 
 import './ProjectsContainer.css'
 import getCategoriaProjetos from '../functions/getCategoriaProjetos'
-import ProjectCard from '@/components/Global/ProjectCard/ProjectCard'
+import ProjectCard from '@/components/ProjectCard/ProjectCard'
 import Link from 'next/link'
 
 type Props = {}
