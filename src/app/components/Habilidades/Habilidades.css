@@ -9,8 +9,12 @@
 }
 
 .habilidades-container .cards-container{
-   display: flex;
-   flex-direction: row;
+   display: grid;
+   grid-template-columns: 50% 1fr;
+   place-items: center;
+   align-items: stretch;
+
+   margin: 0 10%;
    gap: 1rem;
 }
 
@@ -18,5 +22,6 @@
    .habilidades-container .cards-container{
       display: flex;
       flex-direction: column;
+      margin: 0;
    }
 }

@@ -1,26 +1,22 @@
 [
    {
-      "id": 1,
       "icon": "school",
-      "title": "Ensino Técnico",
-      "desc": "Desenvolvimento Sistemas - Etec de Guaianazes (2019 - 2021)"
+      "desc": "Formado - Etec de Guaianazes (2019 - 2021) Desenvolvimento de Sistemas."
    },
    {
-      "id": 2,
       "icon": "school",
-      "title": "Ensino Superior",
-      "desc": "Desenvolvimento de Software Multiplataforma - Fatec ZL (2022 - 2025)"
+      "desc": "Em formação - Fatec ZL (Jun - 2025) Desenvolvimento de Software Multiplataforma."
    },
    {
-      "id": 3,
-      "icon": "published_with_changes",
-      "title": "Evolução",
-      "desc": "Desenvolvimento de interfaces modernas e intuitivas"
+      "icon": "dashboard",
+      "desc": "Desenvolvimento de interfaces intuitivas com conceitos de UI/UX e IHC."
    },
    {
-      "id": 3,
-      "icon": "published_with_changes",
-      "title": "Evolução",
-      "desc": "Vontade de aprender e sempre pensando em evoluir, pessoalmente e profissionalmente"
+      "icon": "tactic",
+      "desc": "Familiarizado com a metodologia ágil SCRUM para gestão de projetos."
+   },
+   {
+      "icon": "architecture",
+      "desc": "Conhecimento sobre Design Patterns (MVC, GoF, SOLID) para desenvolvimento de projetos."
    }
 ]
