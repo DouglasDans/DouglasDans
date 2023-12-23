@@ -8,9 +8,9 @@ type Props = {}
 
 export default function Tecnologias({}: Props) {
 
-   const mapTech = tecnologias.map(item => {
+   const mapTech = tecnologias.map((item, index) => {
       return(
-         <Card key={item.id} nome={item.nome} estudandoHoje={item.estudandoHoje} nivelHabilidade={item.nivelHabilidade} imgName={item.imgName}/>
+         <Card key={index} nome={item.nome} estudandoHoje={item.estudandoHoje} nivelHabilidade={item.nivelHabilidade} imgName={item.imgName}/>
       )
    })
 
