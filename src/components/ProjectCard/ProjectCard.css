@@ -9,7 +9,7 @@
    flex-direction: column;
    justify-content: flex-start;
    align-items: flex-start;
-   width: 380px;
+   width: 32%;
 }
 
 .card-project .img-card .img{
@@ -151,6 +151,10 @@
       justify-content: center !important;
       align-items: center;
    }
+   .card-project {
+      width: 380px;
+   }
+
 }
 
 @media screen and (max-width: 950px) {
