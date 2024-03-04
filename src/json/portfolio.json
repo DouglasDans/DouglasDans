@@ -1,5 +1,20 @@
 [
    {
+      "title": "BuscaCEP",
+      "desc": "Aplicação de consulta aos códigos de endereçamento postal do Brasil, com uma interface minimalista, responsiva, com modo claro e escuro.",
+      "categoria": "pessoal",
+      "tech": [
+         ["NextJS", "nextjs.svg"],
+         ["React", "react.svg"],
+         ["JavaScript", "js.svg"]
+      ],
+      "projectImage": "busca-cep.png",
+      "projectLink": "https://buscacep.douglasdans.vercel.app/",
+      "links": [
+         ["GitHub", "https://github.com/DouglasDans/buscaCEP"]
+      ]
+   },
+   {
       "title": "Wikiflix",
       "desc": "Wikiflix, meu maior projeto pessoal até o momento, é uma aplicação robusta desenvolvida em JS (React.js e Axios). Utiliza dados da TMDB API para apresentar informações de filmes e séries em uma interface minimalista e intuitiva.",
       "categoria": "pessoal",
