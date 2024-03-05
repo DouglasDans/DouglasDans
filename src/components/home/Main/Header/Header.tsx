@@ -1,15 +1,17 @@
 import React from 'react'
-import './Header.css'
 import Link from 'next/link'
+
+import styles from './Header.module.css'
 
 type Props = {}
 
 export default function Header({}: Props) {
   return (
-    <div className="header">
+    <div className={styles.header}>
+
       <h3 className='title-name'><span className='font-blue-color'>{">>"}</span> Douglas Nascimento<span className='font-blue-color'>_</span></h3>
 
-      <nav className='header-nav'>
+      <nav className={styles.nav}>
         <Link href="#habilidades">
           <h4>Minhas Habilidades</h4>
         </Link>

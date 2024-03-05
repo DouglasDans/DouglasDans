@@ -5,36 +5,34 @@
    align-items: center;
 }
 
-.header .header-nav{
+.header .nav{
    display: flex;
    justify-content: flex-end;
 }
 
-.header .header-nav a{
+.header .nav a{
    text-decoration: none;
    transition: 200ms;
 
    padding: 12px 1rem;
 }
 
-.header .header-nav a h4{
-   font-size: 1rem;
+.header .nav a h4{
+   font-size: 1.2rem;
 }
 
-.header .header-nav a:hover h4{
+.header .nav a:hover h4{
    color: var(--blue-color);
    transition: 200ms;
 }
 
 @media screen and (max-width: 900px) {
-   
 
    .header {
       justify-content: center;
-      /* padding: 1rem; */
    }
 
-   .header .header-nav a{
+   .header .nav a{
       display: none;
    }
 }

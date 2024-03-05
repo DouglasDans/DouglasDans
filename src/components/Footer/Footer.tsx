@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import Link from 'next/link'
-import ButtonLinks from '../ButtonLinks/ButtonLinks'
+import ButtonLinks from '@/components/ui/ButtonLinks/ButtonLinks'
 import SocialLinks from '../SocialLinks/SocialLinks'
 
 type Props = {}

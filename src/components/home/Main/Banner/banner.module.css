@@ -1,4 +1,4 @@
-.banner-container{
+.bannerContainer{
    height: 100%;
    width: 100%;
 
@@ -8,7 +8,7 @@
    align-items: center;
 }
 
-.banner-container .info-banner{
+.bannerContainer .infoBanner{
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -16,29 +16,29 @@
    gap: 50px;
 }
 
-.banner-container .info-banner .title{
+.bannerContainer .infoBanner .title{
    display: flex;
    flex-direction: column;
    gap: 1rem;
 }
 
-.banner-container .info-banner .title h1{
+.bannerContainer .infoBanner .title h1{
    font-weight: 600;
 }
 
-.banner-container .info-banner .title h1:first-child{
+.bannerContainer .infoBanner .title h1:first-child{
    font-size: 2.1vw;
 }
-.banner-container .info-banner .title h1:last-child{
+.bannerContainer .infoBanner .title h1:last-child{
    font-size: 2.8vw;
 }
 
-.banner-container .img-container{
+.bannerContainer .imgContainer{
    display: flex;
    justify-content: flex-end;
 }
 
-.banner-container .img-container .img-perfil{
+.bannerContainer .imgContainer .imgPerfil{
    width: 75%;
    border-radius: 100%;
 
@@ -46,7 +46,7 @@
 }
 
 @media screen and (max-width: 1060px) {
-   .banner-container{
+   .bannerContainer{
       height: 100%;
       width: 100%;
    
@@ -58,14 +58,14 @@
       gap: 20px;
    }
 
-   .banner-container .info-banner{
+   .bannerContainer .info-banner{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;  
       gap: 20px;
    }
-   .banner-container .info-banner .title{
+   .bannerContainer .infoBanner .title{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -74,15 +74,15 @@
    /* .banner-container .info-banner .title h1:first-child{
       font-size: 2px;
    } */
-   .banner-container .info-banner .title h1:last-child{
+   .bannerContainer .infoBanner .title h1:last-child{
       font-size: 1rem;
    }
-   .banner-container .img-container{
+   .bannerContainer .img-container{
       display: flex;
       justify-content: center;
    }
 
-   .banner-container .img-container .img-perfil{
+   .bannerContainer .imgContainer .imgPerfil{
       width: 250px;
       border-radius: 100%;
    
