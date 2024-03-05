@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SocialLinks from '@/components/SocialLinks/SocialLinks'
+import SocialLinks from '@/components/ui/SocialLinks/SocialLinks'
 import ButtonLinks from '@/components/ui/ButtonLinks/ButtonLinks'
 
 import styles from './banner.module.css'

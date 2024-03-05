@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
 
-import ProjectsContainer from './components/ProjectsContainer'
-import Footer from '@/components/Footer/Footer'
-import Container from './components/Container/Container'
+import ProjectsContainer from '../../components/projects/ProjectsContainer'
+import Footer from '@/components/ui/Footer/Footer'
+import Container from '@/components/projects/Container/Container'
 
 type Props = {}
 

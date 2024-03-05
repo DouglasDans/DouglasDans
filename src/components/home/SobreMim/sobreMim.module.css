@@ -1,4 +1,4 @@
-.sobre-mim-container {
+.container {
    padding: 50px 70px;
 
    display: flex;
@@ -8,7 +8,7 @@
    gap: 30px;
 }
 
-.sobre-mim-container p {
+.container p {
    font-size: 1rem;
 
    margin: 0 15%;
@@ -16,8 +16,8 @@
 }
 
 @media screen and (max-width: 800px) {
-   .sobre-mim-container p {
-      margin: 0 0%;
+   .container p {
+      margin: 0 0;
       text-align: center;
    }
 }

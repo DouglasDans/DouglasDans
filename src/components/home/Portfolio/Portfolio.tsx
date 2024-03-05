@@ -5,7 +5,7 @@ import './Portfolio.css'
 
 import portfolio from "@/json/portfolioIndex.json"
 import Link from 'next/link'
-import ProjectCard from '@/components/ProjectCard/ProjectCard'
+import ProjectCard from '@/components/ui/ProjectCard/ProjectCard'
 
 type Props = {}
 
