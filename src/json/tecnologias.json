@@ -16,16 +16,21 @@
       "estudandoHoje": true,
       "nivelHabilidade": "Intermediário",
       "imgName": "react.svg"
+   },   {
+      "nome": "NextJS",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Iniciante",
+      "imgName": "nextjs.svg"
    },
    {
       "nome": "Spring",
-      "estudandoHoje": true,
+      "estudandoHoje": false,
       "nivelHabilidade": "Iniciante",
       "imgName": "Spring_Boot.svg"
    },
    {
       "nome": "Java",
-      "estudandoHoje": true,
+      "estudandoHoje": false,
       "nivelHabilidade": "Intermediário",
       "imgName": "java.svg"
    },
