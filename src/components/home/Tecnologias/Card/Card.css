@@ -8,10 +8,6 @@
    height:150px;
 }
 
-.tech-logo-container{
-
-}
-
 .tech-logo-container img{
    height: 50px;
    width: 50px;
@@ -34,13 +30,15 @@
 }
 
 .tech-info .estudando{
-   font-family: "Cascadia Code Bold";
+   font-family: "Cascadia Code SemiBold", monospace;
+   font-weight: 500;
    font-size: 0.9rem;
    color: var(--blue-color);
 }
 
 .tech-info .habilidade{
-   font-family: "Cascadia Code Bold";
+   font-family: "Cascadia Code SemiBold", monospace;
+   font-weight: 600;
    font-size: 0.8rem;
    color: #CDCDCD
 }
