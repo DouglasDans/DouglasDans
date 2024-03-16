@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import './globals.css'
+import '@/ui/globals.css'
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react'
+import { segoeui } from '@/ui/fonts'
 
 export const metadata: Metadata = {
   title: 'Douglas Nascimento - Site Pessoal',
@@ -18,7 +18,7 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
       </head>
-      <body>
+      <body className={`${segoeui.className} antialiased`}>
         {children}
         <Analytics/>  
       </body>
