@@ -125,7 +125,8 @@
    border: 0;
    border-radius: 100px;
    color: var(--bg-color);
-   font-family: "Cascadia Code Bold";
+   font-family: 'Cascadia Code Semibold', monospace;
+   font-weight: 500;
    padding: 0.3rem 0.5rem;
 
    display: flex;

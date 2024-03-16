@@ -17,7 +17,8 @@
    padding: 10px 20px;
    color: var(--bg-color);
 
-   font-family: 'Cascadia Code Bold', monospace;
+   font-family: 'Cascadia Code Semibold', monospace;
+   font-weight: 500;
    font-size: 1.2rem;
 
    transition: 200ms;
