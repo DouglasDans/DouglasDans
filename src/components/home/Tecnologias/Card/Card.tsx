@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import './Card.css'
+import Image from 'next/image'
 
 type Props = {
    nome: String,
@@ -12,7 +13,11 @@ export default function Card({ nome, estudandoHoje, nivelHabilidade, imgName}: P
    return (
       <div className='card-tecnologias-container'>
          <div className="tech-logo-container">
-            <img src={`/tech-logos/${imgName}`} alt=""/>
+            <Image
+               src={`/tech-logos/${imgName}`} 
+               height={70}
+               width={70}
+               alt=""/>
          </div>
          <div className="tech-info">
             <h4 className='title'>{nome}</h4>

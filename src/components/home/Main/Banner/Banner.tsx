@@ -1,9 +1,12 @@
+'use client'
+
 import React from 'react'
 
 import SocialLinks from '@/components/ui/SocialLinks/SocialLinks'
 import ButtonLinks from '@/components/ui/ButtonLinks/ButtonLinks'
 
 import styles from './banner.module.css'
+import Image from 'next/image'
 
 type Props = {}
 
@@ -22,7 +25,12 @@ export default function Banner({}: Props) {
         <ButtonLinks flexColumn={false}/>
       </div>
       <div className={styles.imgContainer}>
-        <img className={styles.imgPerfil} alt='Imagem de perfil' src={"/photo.jpg"}/>
+        <Image 
+          className={styles.imgPerfil} 
+          height={365}
+          width={365}
+          alt='Imagem de perfil' 
+          src={"/photo.jpg"}/>
       </div>
     </div>
   )

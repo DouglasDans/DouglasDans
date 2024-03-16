@@ -1,6 +1,7 @@
 import React from 'react'
 import './ProjectCard.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 type Props = {
   id: Number,
@@ -39,7 +40,13 @@ export default function ProjectCard({projectLink, projectImage, title, links, de
             {
               tech.map((item, index) => {
                 return(
-                  <img key={index} title={item[0]} src={`/tech-logos/${item[1]}`} height={"25px"} alt={item[0]} />
+                  <Image 
+                    key={index} 
+                    title={item[0]} 
+                    src={`/tech-logos/${item[1]}`} 
+                    height={25} 
+                    width={25}
+                    alt={item[0]} />
                 )
               })
             }
