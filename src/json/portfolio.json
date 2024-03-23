@@ -6,7 +6,7 @@
       "tech": [
          ["NextJS", "nextjs.svg"],
          ["React", "react.svg"],
-         ["JavaScript", "js.svg"]
+         ["TypeScript", "ts.svg"]
       ],
       "projectImage": "busca-cep.png",
       "projectLink": "https://buscacep.douglasdans.vercel.app/",
