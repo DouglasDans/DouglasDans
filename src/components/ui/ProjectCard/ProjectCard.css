@@ -160,7 +160,7 @@
       align-items: center;
    }
    .card-project {
-      width: 380px;
+      width: 100% !important;
    }
 
 }
@@ -170,5 +170,12 @@
       display: grid;
       justify-content: center !important;
       align-items: center;
+   }
+   .card-project {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
    }
 }

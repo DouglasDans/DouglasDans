@@ -78,7 +78,7 @@
    .bannerContainer .infoBanner .title h1:last-child{
       font-size: 1rem;
    }
-   .bannerContainer .img-container{
+   .bannerContainer .imgContainer{
       display: flex;
       justify-content: center;
    }
