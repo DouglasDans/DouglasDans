@@ -25,10 +25,8 @@ export default function Banner({}: Props) {
         <ButtonLinks flexColumn={false}/>
       </div>
       <div className={styles.imgContainer}>
-        <Image 
+        <img 
           className={styles.imgPerfil} 
-          height={365}
-          width={365}
           alt='Imagem de perfil' 
           src={"/photo.jpg"}/>
       </div>
