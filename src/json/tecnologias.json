@@ -16,11 +16,18 @@
       "estudandoHoje": true,
       "nivelHabilidade": "Intermediário",
       "imgName": "react.svg"
-   },   {
+   },
+   {
       "nome": "NextJS",
       "estudandoHoje": true,
       "nivelHabilidade": "Iniciante",
       "imgName": "nextjs.svg"
+   },
+   {
+      "nome": "NestJS",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Iniciante",
+      "imgName": "NestJS.svg"
    },
    {
       "nome": "Spring",
@@ -35,6 +42,12 @@
       "imgName": "java.svg"
    },
    {
+      "nome": "MySQL",
+      "estudandoHoje": false,
+      "nivelHabilidade": "Intermediário",
+      "imgName": "mysql.svg"
+   },
+   {
       "nome": "Figma",
       "estudandoHoje": false,
       "nivelHabilidade": "Intermediário",
@@ -47,9 +60,10 @@
       "imgName": "git.svg"
    },
    {
-      "nome": "MySQL",
-      "estudandoHoje": false,
-      "nivelHabilidade": "Intermediário",
-      "imgName": "mysql.svg"
+      "nome": "Docker",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Iniciante",
+      "imgName": "docker.svg"
    }
+
 ]
