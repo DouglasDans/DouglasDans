@@ -5,15 +5,19 @@
    },
    {
       "icon": "school",
-      "desc": "Em formação - Fatec ZL (Jun - 2025) Desenvolvimento de Software Multiplataforma."
+      "desc": "Em formação - Fatec ZL (2022 - 2025) Desenvolvimento de Software Multiplataforma."
    },
    {
       "icon": "dashboard",
-      "desc": "Desenvolvimento de interfaces intuitivas com conceitos de UI/UX e IHC."
+      "desc": "Conhecimento em desenvolvimento front-end web de interfaces intuitivas com React."
    },
    {
-      "icon": "tactic",
-      "desc": "Familiarizado com a metodologia ágil SCRUM para gestão de projetos."
+      "icon": "cloud_sync",
+      "desc": "Conhecimento em desenvolvimento back-end com Spring ou NextJS, desenvolvimento de APIs Rest."
+   },
+   {
+      "icon": "chart_data",
+      "desc": "Sou uma pessoa curiosa e sempre com foco na evolução e desenvolvimento pessoal. Sempre procurando conhecer novos pontos de vista e evoluir pessoalmente e profissionalmente."
    },
    {
       "icon": "architecture",
