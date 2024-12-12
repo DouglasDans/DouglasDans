@@ -1,39 +1,31 @@
-### Oi, eu sou o Douglas 🙂
+### Sobre Mim 🚀  
 
-<h4>📅 20 anos - 2004</h4>
-<h4>🎓 Formado em Desenvolvimento de Sistemas - Etec de Guaianazes (2019 - 2021)</h4>
-<h4>🎓 Cursando Desenvolvimento de Software Multiplataforma 5/6 (2022 - 2025) - Fatec Zona Leste</h4>
-<h4>👨‍💻 Atualmente estudando TypeScript, NextJS, NestJS e Prisma</h4>
+**Eu sou o Douglas 🙂 Sou Desenvolvedor de Software Fullstack e apaixonado por tecnologia**
+- 📅 20 anos - 2004
+- 🎓 Formado em Desenvolvimento de Sistemas - Etec de Guaianazes (2019 - 2021)
+- 🎓 Cursando Desenvolvimento de Software Multiplataforma - Fatec Zona Leste (2022 - 2025)
+- 👨‍💻 Estou me aprofundando em TypeScript, NextJS, NestJS e Prisma para criar aplicações escaláveis e modernas, com foco em Clean Architecture e APIs eficientes.
 
-<br>
-
-<div align="start">
-   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=DouglasDans&show_icons=true&theme=tokyonight"> 
-   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=tokyonight">
+<div align="center">
+   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=douglasdans&show_icons=true&hide_border=true&bg_color=151B23&title_color=612BE3&icon_color=612BE3&text_color=F0F6FC"/>
+   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=douglasdans&layout=compact&hide=php,html&bg_color=151B23&title_color=612BE3&icon_color=612BE3&text_color=F0F6FC&hide_border=true"/>
 </div>
 
 
-<h3>Tenho conhecimento e aprendendo as tecnologias</h3>
+### Tecnologias e Ferramentas 🛠  
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,java,spring,git,figma,mysql)](https://skillicons.dev)
- 
-<h3>Links para contato</h3> 
+[![My Skills](https://skillicons.dev/icons?i=ts,react,nextjs,nestjs,prisma,postgres,java,spring,figma)](https://skillicons.dev)
+
+
+### Projetos em Destaque 👨‍💻
+- [Reboo Book Tracker](https://github.com/DouglasDans/reboo-book-tracker) - Uma plataforma para gerenciar sua biblioteca pessoal, acompanhar o progresso das leituras e definir metas personalizadas. 📚  
+- [Wikiflix](https://github.com/DouglasDans/Wikiflix) - Um aplicativo elegante e funcional que oferece informações detalhadas sobre filmes e séries. 🎥
+
+
+### Links para Contato 🌐  
 
 <a href="https://www.linkedin.com/in/douglasdans/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a target="_blank" href="https://discord.com/users/684092812312313927"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
 <a target="_blank" href="https://www.instagram.com/douglas.dans/">![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)</a>
 
-<!--
-**DouglasDans/DouglasDans** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
