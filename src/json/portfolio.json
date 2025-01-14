@@ -7,7 +7,7 @@
          ["NextJS", "nextjs.svg"],
          ["React", "react.svg"],
          ["TypeScript", "ts.svg"],
-         ["NestJS", "nestjs.svg"],
+         ["NestJS", "NestJS.svg"],
          ["PrismaORM", "prismaorm.svg"],
          ["PostgreSQL", "postgres.svg"]
       ],
@@ -22,7 +22,7 @@
       "desc": "Aplicação de consulta aos códigos de endereçamento postal do Brasil, com uma interface minimalista, responsiva, com modo claro e escuro.",
       "categoria": "pessoal",
       "tech": [
-         ["NextJS", "NextJS.svg"],
+         ["NextJS", "nextjs.svg"],
          ["React", "react.svg"],
          ["TypeScript", "ts.svg"]
       ],
