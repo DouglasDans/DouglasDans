@@ -4,7 +4,7 @@
       "desc": "Um sistema de gerenciamento pessoal de livros que permite aos usuários organizarem suas leituras, criar coleções e acompanhar o progresso de leitura através de estatísticas personalizadas.",
       "categoria": "pessoal",
       "tech": [
-         ["NextJS", "nextjs.svg"],
+         ["NextJS", "NextJS.svg"],
          ["React", "react.svg"],
          ["TypeScript", "ts.svg"],
          ["NestJS", "nestjs.svg"],
