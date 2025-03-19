@@ -14,7 +14,7 @@
 
 ### Tecnologias e Ferramentas 🛠  
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,js,ts,java,react,nextjs,spring,nestjs,angular,nodejs,postgres,docker,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,js,ts,java,react,nextjs,sass,spring,nestjs,angular,nodejs,postgres,docker,linux)](https://skillicons.dev)
 
 ### Links para Contato 🌐  
 
