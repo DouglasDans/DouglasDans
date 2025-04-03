@@ -12,34 +12,38 @@
       "imgName": "ts.svg"
    },
    {
+      "nome": "Java",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Intermediário",
+      "imgName": "java.svg"
+   },
+   {
+      "nome": "NextJS",
+      "estudandoHoje": true,
+      "nivelHabilidade": "Intermediário",
+      "imgName": "nextjs.svg"
+   },
+   {
       "nome": "React",
       "estudandoHoje": true,
       "nivelHabilidade": "Intermediário",
       "imgName": "react.svg"
    },
    {
-      "nome": "NextJS",
-      "estudandoHoje": true,
+      "nome": "Angular",
       "nivelHabilidade": "Iniciante",
-      "imgName": "nextjs.svg"
-   },
-   {
-      "nome": "NestJS",
-      "estudandoHoje": true,
-      "nivelHabilidade": "Iniciante",
-      "imgName": "NestJS.svg"
+      "imgName": "angular.svg"
    },
    {
       "nome": "Spring",
       "estudandoHoje": false,
-      "nivelHabilidade": "Iniciante",
+      "nivelHabilidade": "Intermediário",
       "imgName": "Spring_Boot.svg"
    },
    {
-      "nome": "Java",
-      "estudandoHoje": false,
+      "nome": "NodeJS",
       "nivelHabilidade": "Intermediário",
-      "imgName": "java.svg"
+      "imgName": "node.svg"
    },
    {
       "nome": "MySQL",
@@ -48,21 +52,15 @@
       "imgName": "mysql.svg"
    },
    {
-      "nome": "Figma",
+      "nome": "PostgreSQL",
       "estudandoHoje": false,
-      "nivelHabilidade": "Intermediário",
-      "imgName": "figma.svg"
-   },
-   {
-      "nome": "Git",
-      "estudandoHoje": false,
-      "nivelHabilidade": "Intermediário",
-      "imgName": "git.svg"
+      "nivelHabilidade": "Iniciante",
+      "imgName": "postgres.svg"
    },
    {
       "nome": "Docker",
       "estudandoHoje": true,
-      "nivelHabilidade": "Iniciante",
+      "nivelHabilidade": "Intermediário",
       "imgName": "docker.svg"
    }
 

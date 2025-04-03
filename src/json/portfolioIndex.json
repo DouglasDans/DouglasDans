@@ -1,7 +1,7 @@
 [
    {
       "title": "Reboo",
-      "desc": "Um sistema de gerenciamento pessoal de livros que permite aos usuários organizarem suas leituras, criar coleções e acompanhar o progresso de leitura através de estatísticas personalizadas.",
+      "desc": "Uma Estante virtual para os seus livros, mantenha suas leituras em dia e oganizadas através de uma interface personalizável.",
       "categoria": "pessoal",
       "tech": [
          ["NextJS", "nextjs.svg"],

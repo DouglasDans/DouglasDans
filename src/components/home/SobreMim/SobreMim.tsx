@@ -4,12 +4,14 @@ import styles from './sobreMim.module.css'
 
 type Props = {}
 
-export default function SobreMim({}: Props) {
+export default function SobreMim({ }: Props) {
    return (
       <section className={styles.container} id='sobre-mim'>
          <h2>Sobre mim<span className='font-blue-color'>_</span></h2>
          <p>
-            Trabalho ativamente no meu crescimento profissional, por meio de projetos e estudos onde posso praticar todo o meu conhecimento. Mas também trabalho no meu desenvolvimento pessoal, lendo livros e assistindo a vídeos inspiradores que possam me tornar um ser humano melhor. Sempre estarei aberto a adquirir novos conhecimentos e experiências e a conhecer novos pontos de vista.
+            Estudante de Desenvolvimento de Software, entusiasta e apaixonado por programação e tecnologia. Movido ao aprendizado contínuo e naturalmente curioso. Estou sempre disposto a me desafiar para criar soluções tecnológicas relevantes que ajudem as pessoas de alguma forma.
+            <br />
+            Atualmente focado em desenvolver minhas habilidades pessoais e profi ssionais e conquistar uma oportunidade na área de tecnologia.
          </p>
       </section>
    )

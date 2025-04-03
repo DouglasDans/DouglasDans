@@ -1,7 +1,7 @@
 [
    {
       "title": "Reboo",
-      "desc": "Um sistema de gerenciamento pessoal de livros que permite aos usuários organizarem suas leituras, criar coleções e acompanhar o progresso de leitura através de estatísticas personalizadas.",
+      "desc": "Uma Estante virtual para os seus livros, mantenha suas leituras em dia e oganizadas através de uma interface personalizável.",
       "categoria": "pessoal",
       "tech": [
          ["NextJS", "nextjs.svg"],
@@ -34,7 +34,7 @@
    },
    {
       "title": "Wikiflix",
-      "desc": "Wikiflix, meu maior projeto pessoal até o momento, é uma aplicação robusta desenvolvida em JS (React.js e Axios). Utiliza dados da TMDB API para apresentar informações de filmes e séries em uma interface minimalista e intuitiva.",
+      "desc": "Wikiflix é um projeto que utiliza React.JS e dados da TMDB API para exibir informações de filmes e séries em uma interface bonita e intuitiva.",
       "categoria": "pessoal",
       "tech": [
          ["JavaScript", "js.svg"],
