@@ -10,7 +10,7 @@ export default function Tecnologias({ }: Props) {
 
    const mapTech = tecnologias.map((item, index) => {
       return (
-         <Card key={index} nome={item.nome} nivelHabilidade={item.nivelHabilidade} imgName={item.imgName} />
+         <Card key={index} nome={item.nome} estudandoHoje={item.estudandoHoje || false} nivelHabilidade={item.nivelHabilidade} imgName={item.imgName} />
       )
    })
 
