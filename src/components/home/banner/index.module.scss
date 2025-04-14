@@ -1,0 +1,33 @@
+@use '@/styles/colors';
+
+.container{
+  height: calc(100vh - 80px - 50px - 50px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .info {
+    .title{
+      font-size: 3rem;
+    }
+    
+    .subtitle{
+      font-size: 2rem;
+      color: colors.$highlight-color;
+    }
+
+    .techsContainer{
+      display: flex;
+      margin-top: 1rem;
+      gap: 1rem;
+    }
+  }
+
+  .image {
+    img {
+      border-radius: 1000px;
+      border: 2px solid colors.$highlight-color;
+    }
+  }
+}
