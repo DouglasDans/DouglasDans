@@ -5,7 +5,7 @@ type Props = {
   text: string
 }
 
-export default function TitleDecorator({ text }: Readonly<Props>) {
+export default function TitlePipe({ text }: Readonly<Props>) {
   return (
     <Fragment>{text}<b className={styles.slash}>_</b></Fragment>
   )
