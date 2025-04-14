@@ -1,0 +1,17 @@
+@use '@/styles/colors';
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 20px 10px;
+  gap: 10px;
+  border: 1px solid colors.$background-level2-color;
+  border-radius: 10px;
+
+  & .icon{
+    color: colors.$highlight-color
+  }
+}
