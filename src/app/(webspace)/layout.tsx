@@ -1,10 +1,14 @@
+import NavbarWebspace from '@/components/navbar-webspace'
+import MainContainer from '@/containers/main-container'
 import React, { Fragment, PropsWithChildren } from 'react'
 
-export default function Layout({ children }: PropsWithChildren) {
+export default function Layout({ children }: Readonly<PropsWithChildren>) {
   return (
     <Fragment>
-      <nav></nav>
-      {children}
+      <NavbarWebspace />
+      <MainContainer>
+        {children}
+      </MainContainer>
     </Fragment>
   )
 }

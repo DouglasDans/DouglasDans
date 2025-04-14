@@ -10,7 +10,7 @@ export default function NavbarWebspace() {
       <div className={styles.linksWrapper}>
         <Link href={'#'}>Sobre Mim</Link>
         <Link href={'#'}>Habilidades</Link>
-        <Link href={'#'}>Portfólio</Link>
+        <Link href={'/portfolio'}>Portfólio</Link>
         {/* <Link href={'#'}>Blog</Link> */}
       </div>
     </nav>
