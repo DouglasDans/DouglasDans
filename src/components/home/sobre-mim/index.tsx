@@ -4,7 +4,7 @@ import styles from './index.module.scss'
 
 export default function SobreMim() {
   return (
-    <section className={styles.container}>
+    <section id="sobre-mim" className={styles.container}>
       <h2><TitleDecorator text="Sobre Mim" /></h2>
 
       <p className={styles.description}>
