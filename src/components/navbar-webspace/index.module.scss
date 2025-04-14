@@ -10,4 +10,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
+
+  .linksWrapper{
+    display: flex;
+    gap: 2rem;
+
+    a {
+      font-family: var(--font-lexend);
+      font-weight: 500;
+    }
+  }
 }
