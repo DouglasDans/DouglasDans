@@ -1,5 +1,5 @@
-@use '@/styles/color-variables';
+@use '@/styles/colors';
 
 .slash {
-  color: color-variables.$highlight-color;
+  color: colors.$highlight-color;
 }
