@@ -5,7 +5,7 @@ const arrTechs: string[] = ['ts', 'nextjs', 'react', 'node', 'java', 'spring']
 
 export default function Banner() {
   return (
-    <section className={styles.container}>
+    <section id='top' className={styles.container}>
 
       <div className={styles.info}>
         <h1 className={styles.title}>Olá, eu sou o Douglas 🧑‍💻</h1>
@@ -19,7 +19,7 @@ export default function Banner() {
                 key={item}
                 height={30}
                 width={30}
-                alt="" />
+                alt={`${item} logo`} />
             )
           })}
         </div>
