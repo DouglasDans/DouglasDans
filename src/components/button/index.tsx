@@ -3,7 +3,7 @@ import styles from './index.module.scss'
 
 type Props = {
   size?: 'md' | 'sm'
-  startDecorator?: string
+  startDecorator?: ReactNode
   children: ReactNode
 }
 
