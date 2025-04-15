@@ -1,0 +1,33 @@
+@use '@/styles/colors';
+
+.button{
+  background-color: colors.$background-level1-color;
+  border: 1px solid colors.$background-level2-color;
+  border-radius: 10px;
+
+  color: colors.$text-primary-color;
+  font-weight: 600;
+
+  display: flex;
+  gap: 5px;
+  
+  &.md{
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  &.sm{
+    font-size: 0.8rem;
+    padding: 5px 20px;
+  }
+
+  &:hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  &:active{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+}
