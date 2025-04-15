@@ -1,0 +1,22 @@
+import SocialLinksWrapper from "@/components/social-links-wrapper";
+import TitlePipe from "@/components/title-pipe";
+import styles from './index.module.scss'
+import { MDXRemote } from 'next-mdx-remote/rsc'
+
+const sobreMimText = `Estudante de Desenvolvimento de Software, entusiasta e apaixonado por programação e tecnologia. Movido ao aprendizado contínuo e naturalmente curioso. Estou sempre disposto a me desafiar para criar soluções que ajudem empresas e pessoas utilizando tecnologia. Atualmente focado em desenvolver minhas habilidades pessoais e profissionais e conquistar uma oportunidade na área de tecnologia.
+`
+
+export default function SobreMim() {
+  return (
+    <section id="sobre-mim" className={styles.container}>
+      <h2><TitlePipe text="Sobre Mim" /></h2>
+
+      <div className={styles.description}>
+        <MDXRemote source={sobreMimText} />
+      </div>
+
+
+      <SocialLinksWrapper />
+    </section>
+  )
+}

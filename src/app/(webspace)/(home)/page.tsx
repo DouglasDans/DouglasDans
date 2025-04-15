@@ -1,6 +1,6 @@
-import Banner from '@/components/home/banner'
-import Habilidades from '@/components/home/habilidades'
-import SobreMim from '@/components/home/sobre-mim'
+import Banner from '@/containers/home/banner'
+import Habilidades from '@/containers/home/habilidades'
+import SobreMim from '@/containers/home/sobre-mim'
 import React, { Fragment } from 'react'
 
 export default function Home() {
