@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import NavbarWebspace from '@/components/navbar-webspace'
 import MainContainer from '@/containers/main-container'
 import React, { Fragment, PropsWithChildren } from 'react'
@@ -9,6 +10,7 @@ export default function Layout({ children }: Readonly<PropsWithChildren>) {
       <MainContainer>
         {children}
       </MainContainer>
+      <Footer />
     </Fragment>
   )
 }
