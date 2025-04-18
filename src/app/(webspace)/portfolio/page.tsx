@@ -7,6 +7,8 @@ type Props = {
   }
 }
 
-export default function PortfolioPage({ searchParams }: Readonly<Props>) {
+export default async function PortfolioPage(props: Promise<Props>) {
+  const { searchParams } = await props;
+
   return <PortfolioPageContainer projectCategory={searchParams['project-category']} />
 }
