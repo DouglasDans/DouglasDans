@@ -31,6 +31,12 @@ export default class NotionDatabaseService {
           equals: value,
         },
       },
+      sorts: [
+        {
+          property: "date_project",
+          direction: "descending",
+        },
+      ],
     });
 
     return db.results as Partial<PageObjectResponse>[];
