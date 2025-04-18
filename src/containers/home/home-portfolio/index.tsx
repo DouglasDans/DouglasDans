@@ -3,8 +3,11 @@ import styles from './index.module.scss';
 import ProjectCard from "@/components/project-card";
 import Button from "@/components/button";
 import Link from "next/link";
+import getMainProjects from "@/actions/portfolio.actions";
 
-export default function PortfolioHome() {
+export default async function PortfolioHome() {
+  const pagesList = await getMainProjects()
+
   return (
     <section id='habilidades' className={styles.container}>
       <div className={styles.header}>
@@ -13,7 +16,11 @@ export default function PortfolioHome() {
       </div>
 
       <div className={styles.itemsWrapper}>
-        <ProjectCard />
+        {pagesList && pagesList.map((page, index) => {
+          return (
+            <ProjectCard key={index} />
+          )
+        })}
       </div>
     </section>
   )
