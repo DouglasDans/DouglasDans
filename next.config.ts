@@ -8,6 +8,12 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  images: {
+    remotePatterns: [
+      new URL("https://www.notion.so/images/**"),
+      new URL("https://prod-files-secure.s3.us-west-2.amazonaws.com/**"),
+    ],
+  },
 };
 
 const withMDX = createMDX({
