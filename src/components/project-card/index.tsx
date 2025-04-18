@@ -2,32 +2,41 @@
 import Image from 'next/image'
 import styles from './index.module.scss'
 import Button from '../button'
+import { NotionPageData } from '@/services/notion/classes/NotionPage'
+import Link from 'next/link'
 
-type Props = {}
+type Props = {
+  content: NotionPageData
+}
 
-export default function ProjectCard({ }: Props) {
+export default function ProjectCard({ content }: Readonly<Props>) {
   return (
     <div className={styles.card}>
-      <Image
+      <img
         className={styles.coverImage}
-        src={"/portfolio-img/wikiflix.png"}
+        src={content.banner || "/portfolio-img/placeholder.png"}
         width={640}
         height={360}
         alt=''
       />
 
       <div className={styles.content}>
-        <h3>Wikiflix</h3>
+        <h3>{content.name}</h3>
 
-        <small className={styles.description}>Wikiflix é um projeto que utiliza React.JS e dados da TMDB API para exibir informações de filmes e séries em uma interface bonita e intuitiva.</small>
+        <small className={styles.description}>
+          {content.description}
+        </small>
 
         <div className={styles.buttonWrapper}>
           <Button size='sm'>Mais Informações</Button>
-          <Button
-            size='sm'
-            startDecorator={<Image src={"/social-logos/github.svg"} height={15} width={15} alt='' />}>
-            Github
-          </Button>
+          {content.github_link &&
+            <Link href={content.github_link}>
+              <Button
+                size='sm'
+                startDecorator={<Image src={"/social-logos/github.svg"} height={15} width={15} alt='' />}>
+                Github
+              </Button>
+            </Link>}
         </div>
       </div>
     </div>

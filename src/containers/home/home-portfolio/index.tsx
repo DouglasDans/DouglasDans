@@ -16,11 +16,9 @@ export default async function PortfolioHome() {
       </div>
 
       <div className={styles.itemsWrapper}>
-        {pagesList && pagesList.map((page, index) => {
-          return (
-            <ProjectCard key={index} />
-          )
-        })}
+        {pagesList?.map((page) => (
+          <ProjectCard content={page} key={page.id} />
+        ))}
       </div>
     </section>
   )
