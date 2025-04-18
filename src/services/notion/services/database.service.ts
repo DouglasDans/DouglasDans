@@ -8,7 +8,7 @@ export default class NotionDatabaseService {
     this.databaseID = databaseID;
   }
 
-  async getResults() {
+  async getAllResults() {
     const db = await notion.databases.query({
       database_id: this.databaseID,
       sorts: [
@@ -17,6 +17,20 @@ export default class NotionDatabaseService {
           direction: "descending",
         },
       ],
+    });
+
+    return db.results as Partial<PageObjectResponse>[];
+  }
+
+  async getResultsByFilter(property: string, value: string) {
+    const db = await notion.databases.query({
+      database_id: this.databaseID,
+      filter: {
+        property: property,
+        select: {
+          equals: value,
+        },
+      },
     });
 
     return db.results as Partial<PageObjectResponse>[];

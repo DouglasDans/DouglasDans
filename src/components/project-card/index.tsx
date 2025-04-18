@@ -18,6 +18,8 @@ export default function ProjectCard({ content }: Readonly<Props>) {
         width={640}
         height={360}
         alt=''
+        quality={80}
+        priority={true}
       />
 
       <div className={styles.content}>

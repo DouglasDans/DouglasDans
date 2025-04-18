@@ -3,7 +3,7 @@ import styles from './index.module.scss';
 import ProjectCard from "@/components/project-card";
 import Button from "@/components/button";
 import Link from "next/link";
-import getMainProjects from "@/actions/portfolio.actions";
+import { getMainProjects } from "@/actions/portfolio.actions";
 
 export default async function PortfolioHome() {
   const pagesList = await getMainProjects()

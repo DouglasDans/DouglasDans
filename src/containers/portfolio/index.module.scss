@@ -1,0 +1,32 @@
+@use '@/styles/colors';
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .buttonsWrapper{
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+
+      .active{
+        background-color: colors.$text-primary-color !important;
+        color: colors.$background-body-color !important;
+        border: 2px solid colors.$text-primary-color;
+      }
+    }
+  }
+
+  .itemsWrapper{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) );
+    justify-content: space-between;
+  }
+}

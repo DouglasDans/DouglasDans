@@ -6,11 +6,28 @@ import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 
 const dbID = process.env.NOTION_DB_ID_PROJECTS as string;
 
-export default async function getMainProjects() {
+export async function getMainProjects() {
   const notionService = NotionServiceFactory("database", dbID);
 
   try {
     const res = await notionService.getMainResults();
+    return res.map((page) => {
+      return notionPageMapper(page as PageObjectResponse);
+    });
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+export async function getProjectByCategory(category: string) {
+  const notionService = NotionServiceFactory("database", dbID);
+  console.log(category);
+
+  try {
+    const res =
+      category === "all" || category === null || category === undefined
+        ? await notionService.getAllResults()
+        : await notionService.getResultsByFilter("category", category);
     return res.map((page) => {
       return notionPageMapper(page as PageObjectResponse);
     });
