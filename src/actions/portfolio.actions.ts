@@ -10,12 +10,10 @@ export default async function getMainProjects() {
   const notionService = NotionServiceFactory("database", dbID);
 
   try {
-    const res = await notionService.getResults();
-    const obj = res.map((page) => {
+    const res = await notionService.getMainResults();
+    return res.map((page) => {
       return notionPageMapper(page as PageObjectResponse);
     });
-
-    return obj;
   } catch (error) {
     console.error(error);
   }

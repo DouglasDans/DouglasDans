@@ -29,6 +29,7 @@ export default function ProjectCard({ content }: Readonly<Props>) {
 
         <div className={styles.buttonWrapper}>
           <Button size='sm'>Mais Informações</Button>
+
           {content.github_link &&
             <Link href={content.github_link}>
               <Button

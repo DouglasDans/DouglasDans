@@ -17,7 +17,12 @@ export default function notionPageMapper(res: PageObjectResponse) {
     description: properties.description.rich_text.map((text) => text.plain_text).join(" "),
     tecnologies: properties.tecnologies.multi_select,
 
-    banner: res.cover?.external?.url || res.cover?.file?.url,
+    banner:
+      res.cover?.type === "external"
+        ? res.cover.external.url
+        : res.cover?.type === "file"
+          ? res.cover.file.url
+          : undefined,
   });
 
   return pageObj;
