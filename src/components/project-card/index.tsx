@@ -12,7 +12,7 @@ type Props = {
 export default function ProjectCard({ content }: Readonly<Props>) {
   return (
     <div className={styles.card}>
-      <img
+      <Image
         className={styles.coverImage}
         src={content.banner || "/portfolio-img/placeholder.png"}
         width={640}
