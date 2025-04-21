@@ -1,0 +1,21 @@
+@use '@/styles/colors';
+
+.container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  .tag{
+    border: 2px solid colors.$background-level2-color;
+    border-radius: 3000px;
+    padding: 5px 10px;
+  
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+    width: min-content;
+  }
+}

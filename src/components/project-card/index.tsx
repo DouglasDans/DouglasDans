@@ -30,13 +30,16 @@ export default function ProjectCard({ content }: Readonly<Props>) {
         </small>
 
         <div className={styles.buttonWrapper}>
-          <Button size='sm'>Mais Informações</Button>
+          <Link href={`?modal=true&project-id=${content.id}`} scroll={false}>
+            <Button size='sm'>Mais Informações</Button>
+          </Link>
 
           {content.github_link &&
             <Link href={content.github_link}>
               <Button
                 size='sm'
-                startDecorator={<Image src={"/social-logos/github.svg"} height={15} width={15} alt='' />}>
+                startDecorator={<Image src={"/social-logos/github.svg"} height={15} width={15} alt='' />}
+              >
                 Github
               </Button>
             </Link>}

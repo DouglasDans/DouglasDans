@@ -1,0 +1,88 @@
+@use '@/styles/colors';
+
+.container{
+  position: fixed;
+  z-index: 100000;
+
+  left: 0;
+  top: 0;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.40);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+
+  .modal{
+    background-color: colors.$background-body-color;
+    border: 2px solid colors.$background-level2-color;
+    border-radius: 20px;
+
+    width: 60%;
+
+    position: relative;
+    
+    .closeButton{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 5px;
+
+      background-color: colors.$background-level1-color;
+      border: 2px solid colors.$background-level2-color;
+      border-radius: 1000px;
+      color: colors.$text-primary-color;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover{
+        cursor: pointer;
+        background-color: colors.$background-body-color;
+      }
+    
+      &:active{
+        cursor: pointer;
+        background-color: colors.$background-body-color;
+        opacity: 0.8;
+      }
+    }
+
+    .image {
+      object-fit: cover;
+      object-position: top;
+
+      height: 230px;
+      width: 100%;
+      border-radius: 18px 18px 0 0;
+    }
+
+    .content{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 25px 50px;
+
+      .header{
+        display: flex;
+        justify-content: space-between;
+
+        .buttonsWrapper{
+          display: flex;
+          justify-content: flex-end;
+          gap: 10px;
+        }
+      }
+
+      .text{
+        color: colors.$text-secondary-color;
+      }
+    }
+  }
+}
