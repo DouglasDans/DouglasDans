@@ -2,9 +2,14 @@ import PortfolioPageContainer from '@/containers/portfolio'
 import React from 'react'
 
 type Props = {
-  searchParams: { [key: string]: string | string[] | undefined }
+  searchParams: Promise<{
+    "project-category": string
+  }>
 }
 
-export default function PortfolioPage({ searchParams }: Props) {
-  return <PortfolioPageContainer projectCategory={searchParams['project-category'] as string} />
+export default async function PortfolioPage({ searchParams }: Props) {
+  const resolvedParams = await searchParams;
+  const projectCategory = resolvedParams["project-category"]
+
+  return <PortfolioPageContainer projectCategory={projectCategory} />
 }
