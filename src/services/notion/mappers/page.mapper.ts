@@ -2,10 +2,8 @@ import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import { NotionPage } from "../classes/NotionPage";
 import { NotionPageProperties } from "../types/pages.type";
 
-export default function notionPageMapper(res: PageObjectResponse) {
+export default function notionPageMapper(res: PageObjectResponse): NotionPage {
   const properties = res.properties as unknown as NotionPageProperties;
-
-  console.log(res);
 
   const pageObj = new NotionPage({
     id: res.id,
@@ -15,7 +13,7 @@ export default function notionPageMapper(res: PageObjectResponse) {
     updated_at: properties.updated_at.last_edited_time,
     name: properties.name.title.map((text) => text.plain_text).join(" "),
     description: properties.description.rich_text.map((text) => text.plain_text).join(" "),
-    tecnologies: properties.tecnologies.multi_select,
+    tecnologies: properties.tecnologies.multi_select.map((tech) => tech.name),
 
     banner:
       res.cover?.type === "external"
