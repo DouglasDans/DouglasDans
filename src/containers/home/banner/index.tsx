@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './index.module.scss'
 
-const arrTechs: string[] = ['ts', 'nextjs', 'react', 'node', 'java', 'spring']
+const arrTechs: string[] = ['typescript', 'nextjs', 'react', 'node', 'java', 'spring']
 
 export default function Banner() {
   return (

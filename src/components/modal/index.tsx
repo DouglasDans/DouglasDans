@@ -34,9 +34,6 @@ export default function Modal({ projectId }: Readonly<Props>) {
     router.replace(currentPath, { scroll: false });
   };
 
-  console.log(page?.markdownContent);
-
-
   return (
     <div className={styles.container} onClick={closeModal}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
