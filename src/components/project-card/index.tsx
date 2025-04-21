@@ -35,7 +35,7 @@ export default function ProjectCard({ content }: Readonly<Props>) {
           </Link>
 
           {content.github_link &&
-            <Link href={content.github_link}>
+            <Link href={content.github_link} target="_blank">
               <Button
                 size='sm'
                 startDecorator={<Image src={"/social-logos/github.svg"} height={15} width={15} alt='' />}
