@@ -1,0 +1,32 @@
+[
+  {
+     "icon": "school",
+     "title": "Técnico pela Etec de Guaianazes (2019 - 2021)",
+     "desc": "Em Desenvolvimento de Sistemas."
+  },
+  {
+     "icon": "school",
+     "title": "Tecnólogo em formação pela Fatec Zona Leste (2022 - 2025)",
+     "desc": "Em Desenvolvimento de Software Multiplataforma."
+  },
+  {
+     "icon": "search",
+     "title": "Curiosidade e aprendizado autodidata",
+     "desc": "Sempre busco entender os porquês por trás da tecnologia, e colocar a mão na massa para aprender na prática."
+  },
+  {
+     "icon": "map",
+     "title": "Organização e Planejamento",
+     "desc": "Gosto de utilizar o Notion com Kanban para organizar meus estudos e projetos."
+  },
+  {
+     "icon": "chart_data",
+     "title": "Pragmatísmo com foco em evolução contínua",
+     "desc": "Não tenho medo de recomeçar, cada recomeço é uma experência, é conhecimento contínuo. Só preciso analisar e planejar o novo caminho."
+  },
+  {
+     "icon": "computer",
+     "title": "Conhecimento de tecnologias",
+     "desc": "Java, PHP, JS, TS, Python, React, Angular, MySQL, Firebase e MongoDB. Além de metodologias ágeis e Clean Code."
+  }
+]
