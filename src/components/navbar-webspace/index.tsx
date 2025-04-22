@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function NavbarWebspace() {
   return (
     <nav className={styles.container}>
-      <Link href={"/"}>
+      <Link href={"/"} className={styles.logoLink}>
         <h1><TitlePipe text='Douglas Nacimento' /></h1>
       </Link>
       <div className={styles.linksWrapper}>
