@@ -9,9 +9,7 @@ type Props = {
 export default function SocialButton({ color, children }: Readonly<Props>) {
   return (
     <button className={styles.button} style={{ backgroundColor: color }}>
-      <div>
-        {children}
-      </div>
+      {children}
     </button >
   )
 }

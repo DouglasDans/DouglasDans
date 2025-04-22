@@ -9,6 +9,10 @@
   background-color: colors.$background-level1-color;
   color: colors.$text-primary-color;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   &:hover{
     cursor: pointer;
     opacity: 0.8;

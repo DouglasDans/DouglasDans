@@ -6,7 +6,7 @@ import styles from './index.module.scss'
 export default function SocialLinksWrapper() {
   return (
     <div className={styles.wrapper}>
-      <Link href={"https://discord.com/users/684092812312313927"}>
+      <Link href={"https://discord.com/users/684092812312313927"} target="_blank">
         <SocialButton color="#5865F2" >
           <Image
             src={"/social-logos/discord.svg"}
@@ -17,7 +17,7 @@ export default function SocialLinksWrapper() {
         </SocialButton>
       </Link>
 
-      <Link href={"https://github.com/DouglasDans"}>
+      <Link href={"https://github.com/DouglasDans"} target="_blank">
         <SocialButton color="#24292e" >
           <Image
             src={"/social-logos/github.svg"}
@@ -28,7 +28,7 @@ export default function SocialLinksWrapper() {
         </SocialButton>
       </Link>
 
-      <Link href={"https://www.linkedin.com/in/douglasdans/"}>
+      <Link href={"https://www.linkedin.com/in/douglasdans/"} target="_blank">
         <SocialButton color="#0077b5" >
           <Image
             src={"/social-logos/linkedin.svg"}
