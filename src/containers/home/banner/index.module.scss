@@ -9,14 +9,14 @@
   justify-content: space-between;
 
   @include mixins.media-query(sm){
-    height: 75vh;
+    height: 79vh;
 
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     gap: 3rem;
 
-    margin-top: -100px;
+    margin-top: -50px;
   }
 
   .info {
