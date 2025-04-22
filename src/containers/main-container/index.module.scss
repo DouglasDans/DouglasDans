@@ -1,3 +1,5 @@
+@use '@/styles/mixins';
+
 .container{
   margin-top: 80px;
   padding: 50px;
@@ -5,4 +7,11 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+
+  @include mixins.media-query(sm){
+    padding: 20px;
+  }
+  @include mixins.media-query(md){
+    padding: 35px;
+  }
 }
