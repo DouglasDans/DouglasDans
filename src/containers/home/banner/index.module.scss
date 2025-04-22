@@ -11,7 +11,8 @@
   @include mixins.media-query(sm){
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 3rem;
   }
 
   .info {
