@@ -6,7 +6,6 @@ const arrTechs: string[] = ['typescript', 'nextjs', 'react', 'node', 'java', 'sp
 export default function Banner() {
   return (
     <section id='top' className={styles.container}>
-
       <div className={styles.info}>
         <h1 className={styles.title}>Olá, eu sou o Douglas 🧑‍💻</h1>
         <h3 className={styles.subtitle}>Desenvolvedor FullStack</h3>
