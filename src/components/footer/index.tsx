@@ -20,9 +20,9 @@ export default function Footer() {
 
       <div className={`${styles.content} ${styles.right}`}>
         <div className={styles.buttonsWrapper}>
-          <Link href={"/blog"}>
+          {/* <Link href={"/blog"}>
             <Button size='sm'>Meu Blog</Button>
-          </Link>
+          </Link> */}
           <Link href={"/curriculo"}>
             <Button size='sm'>Meu Currículo</Button>
           </Link>

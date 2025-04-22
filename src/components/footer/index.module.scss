@@ -1,4 +1,5 @@
 @use '@/styles/colors';
+@use '@/styles/mixins';
 
 .footer {
   background-color: colors.$background-level1-color;
@@ -7,11 +8,23 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
+  @include mixins.media-query(md){
+    padding: 35px;
+  }
+  @include mixins.media-query(sm){
+    padding: 20px;
+    margin-bottom: 80px
+  }
+
   .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
+
+    @include mixins.media-query(sm){
+      gap: 2rem;
+    }
 
     &.left{
       align-items: flex-start;
