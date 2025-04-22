@@ -10,8 +10,6 @@ type Props = {
 }
 
 export default async function PortfolioPageContainer({ projectCategory }: Readonly<Props>) {
-  console.log(projectCategory);
-
   const projectList = await getProjectByCategory(projectCategory);
 
   return (

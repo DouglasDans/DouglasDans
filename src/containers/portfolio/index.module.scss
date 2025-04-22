@@ -1,4 +1,5 @@
 @use '@/styles/colors';
+@use '@/styles/mixins';
 
 .container{
   display: flex;
@@ -10,10 +11,30 @@
     justify-content: space-between;
     align-items: center;
 
+    @include mixins.media-query(md){
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
     .buttonsWrapper{
       display: flex;
       justify-content: flex-end;
       gap: 10px;
+      
+      @include mixins.media-query(md){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        & > a {
+          width: 100% !important;
+        }
+        & > a > button{
+          width: 100% !important;
+        }
+      }
 
       .active{
         background-color: colors.$text-primary-color !important;
