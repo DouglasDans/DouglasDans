@@ -8,10 +8,10 @@
   flex-direction: column;
   gap: 50px;
 
-  @include mixins.media-query(sm){
-    padding: 20px;
-  }
   @include mixins.media-query(md){
     padding: 35px;
+  }
+  @include mixins.media-query(sm){
+    padding: 20px;
   }
 }
