@@ -10,8 +10,8 @@ export default function NavbarWebspace() {
         <h1><TitlePipe text='Douglas Nacimento' /></h1>
       </Link>
       <div className={styles.linksWrapper}>
-        <Link href={'#sobre-mim'}>Sobre Mim</Link>
-        <Link href={'#habilidades'}>Habilidades</Link>
+        <Link href={'/#sobre-mim'}>Sobre Mim</Link>
+        <Link href={'/#habilidades'}>Habilidades</Link>
         <Link href={'/portfolio'}>Portfólio</Link>
         {/* <Link href={'#'}>Blog</Link> */}
       </div>
