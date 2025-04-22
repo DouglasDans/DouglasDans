@@ -35,7 +35,20 @@ export default function Modal({ projectId }: Readonly<Props>) {
   };
 
   if (!page) {
-    return null
+    return (
+      <div className={styles.container} onClick={closeModal}>
+        <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+
+          <button className={styles.closeButton} onClick={closeModal}>
+            <span className='material-symbols-rounded'>close</span>
+          </button>
+
+          <div className={styles.content}>
+            <h2>Carregando...</h2>
+          </div>
+        </div>
+      </div>
+    )
   }
 
   return (
