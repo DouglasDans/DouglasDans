@@ -34,6 +34,10 @@ export default function Modal({ projectId }: Readonly<Props>) {
     router.replace(currentPath, { scroll: false });
   };
 
+  if (!page) {
+    return null
+  }
+
   return (
     <div className={styles.container} onClick={closeModal}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
@@ -42,7 +46,7 @@ export default function Modal({ projectId }: Readonly<Props>) {
           <span className='material-symbols-rounded'>close</span>
         </button>
 
-        {page?.banner && <Image
+        {page.banner && <Image
           src={page.banner}
           width={1280}
           height={720}
@@ -52,16 +56,16 @@ export default function Modal({ projectId }: Readonly<Props>) {
 
         <div className={styles.content}>
           <div className={styles.header}>
-            <h1>{page?.name}</h1>
+            <h1>{page.name}</h1>
 
             <div className={styles.buttonsWrapper}>
-              {page?.github_link && <Link href={page?.github_link} target="_blank">
+              {page.github_link && <Link href={page?.github_link} target="_blank">
                 <Button
                   startDecorator={<Image src={"/social-logos/github.svg"} height={20} width={20} alt='github logo' />}>
                   Github
                 </Button>
               </Link>}
-              {page?.accessLink && <Link href={page?.accessLink} target="_blank">
+              {page.accessLink && <Link href={page?.accessLink} target="_blank">
                 <Button
                   startDecorator={<span className='material-symbols-rounded'>open_in_new</span>}
                 >Acessar</Button>
@@ -70,16 +74,16 @@ export default function Modal({ projectId }: Readonly<Props>) {
           </div>
 
           <div className={styles.text}>
-            {page?.markdownContent
+            {page.markdownContent
               ? <ReactMarkdown
                 remarkPlugins={[remarkGfm, remarkBreaks]}
                 rehypePlugins={[rehypeRaw]}>
                 {page.markdownContent}
               </ReactMarkdown>
-              : <p>{page?.description}</p>}
+              : <p>{page.description}</p>}
           </div>
 
-          {page?.tecnologies && <TechnologyTag values={page?.tecnologies} />}
+          {page.tecnologies && <TechnologyTag values={page?.tecnologies} />}
         </div>
       </div>
     </div>
