@@ -1,0 +1,33 @@
+@use 'colors';
+@use 'mixins';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@include mixins.media-query(md){
+  html{
+    font-size: 14px;
+  }
+}
+
+body{
+  background-color: colors.$background-body-color;
+  color: colors.$text-primary-color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-lexend);
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: colors.$text-primary-color;
+
+  &:hover{
+    color: colors.$highlight-color;
+  }
+}

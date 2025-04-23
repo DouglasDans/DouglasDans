@@ -1,0 +1,25 @@
+@use '@/styles/colors';
+
+.button{
+  height: 40px;
+  width: 40px;
+
+  border-radius: 1000px;
+  border: 2px solid colors.$background-level2-color;
+  background-color: colors.$background-level1-color;
+  color: colors.$text-primary-color;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  &:active{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+}

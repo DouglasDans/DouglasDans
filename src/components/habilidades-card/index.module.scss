@@ -1,0 +1,30 @@
+@use '@/styles/colors';
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 1rem;
+  gap: 0.8rem;
+  border: 2px solid colors.$background-level2-color;
+  border-radius: 10px;
+
+  & .icon{
+    color: colors.$highlight-color
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+
+    span{
+      font-weight: 600;
+    }
+
+    small{
+      color: colors.$text-secondary-color;
+    }
+  }
+}

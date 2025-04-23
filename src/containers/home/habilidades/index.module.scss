@@ -1,0 +1,19 @@
+@use '@/styles/mixins';
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  .itemsWrapper{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include mixins.media-query(md){
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+}

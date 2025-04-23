@@ -1,5 +1,5 @@
 {
-  "name": "douglasdans",
+  "name": "site-pessoal",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mui/icons-material": "^5.16.6",
-    "@vercel/analytics": "^1.1.1",
-    "douglasdans": "file:",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.2.4",
+    "@notionhq/client": "^2.3.0",
+    "@types/mdx": "^2.0.13",
+    "next": "15.3.0",
+    "next-mdx-remote": "^5.0.0",
+    "notion-to-md": "^3.1.8",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "rehype-raw": "^7.0.0",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "typescript": "latest"
-  }
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-syntax-highlighter": "^15",
+    "eslint": "^9",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-next": "15.3.0",
+    "prettier": "^3.5.3",
+    "sass": "^1.86.3",
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@4.9.1"
 }

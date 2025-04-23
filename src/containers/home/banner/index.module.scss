@@ -1,0 +1,69 @@
+@use '@/styles/colors';
+@use '@/styles/mixins';
+
+.container{
+  height: calc(100vh - 80px - 50px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include mixins.media-query(sm){
+    height: 79vh;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 3rem;
+
+    margin-top: -50px;
+  }
+
+  .info {
+    @include mixins.media-query(sm){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title{
+      font-size: 3rem;
+
+      @include mixins.media-query(sm){
+        font-size: 2rem;
+      }
+    }
+    
+    .subtitle{
+      font-size: 2rem;
+      color: colors.$highlight-color;
+
+      @include mixins.media-query(sm){
+        font-size: 1.5rem;
+      }
+    }
+
+    .techsContainer{
+      display: flex;
+      margin-top: 1rem;
+      gap: 1rem;
+    }
+  }
+
+  .image {
+    img {
+      border-radius: 1000px;
+      border: 2px solid colors.$highlight-color;
+
+      @include mixins.media-query(lg){
+        height: 250px;
+        width: 250px;
+      }
+
+      @include mixins.media-query(md){
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
+}
