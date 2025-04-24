@@ -23,5 +23,6 @@ export default function notionPageMapper(res: PageObjectResponse): NotionPage {
           : undefined,
   });
 
-  return pageObj;
+  const json = JSON.stringify(pageObj);
+  return JSON.parse(json);
 }

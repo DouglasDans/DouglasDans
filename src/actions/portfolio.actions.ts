@@ -51,8 +51,7 @@ export async function getPageDetails(id: string) {
     if (notionService instanceof NotionPageService) {
       const page = notionPageMapper(await notionService.getDetails());
       page.markdownContent = await n2mService.convertPageToMarkdown(id);
-      const json = JSON.stringify(page);
-      return JSON.parse(json);
+      return page;
     }
   } catch (error) {
     console.error(error);
