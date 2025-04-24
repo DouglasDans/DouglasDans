@@ -31,6 +31,7 @@ export default function Modal({ projectId }: Readonly<Props>) {
 
   function closeModal() {
     const currentPath = window.location.pathname;
+
     router.replace(currentPath, { scroll: false });
   };
 
