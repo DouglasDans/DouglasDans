@@ -1,16 +1,26 @@
+'use client'
+
+import { useState, useEffect } from 'react'
 import TitlePipe from '@/components/title-pipe'
 import styles from './index.module.scss'
 import Link from 'next/link'
 import Button from '@/components/button'
 import { getProjectByCategory } from '@/actions/portfolio.actions'
 import ProjectCard from '@/components/project-card'
+import { NotionPage } from '@/services/notion/classes/NotionPage'
 
-type Props = {
-  projectCategory: string
-}
+export default function PortfolioPageContainer() {
+  const [projectCategory, setProjectCategory] = useState('all')
+  const [projectList, setProjectList] = useState<NotionPage[]>()
 
-export default async function PortfolioPageContainer({ projectCategory }: Readonly<Props>) {
-  const projectList = await getProjectByCategory(projectCategory);
+  useEffect(() => {
+    const fetchProjects = async () => {
+      const projects = await getProjectByCategory(projectCategory)
+      setProjectList(projects)
+    }
+
+    fetchProjects()
+  }, [projectCategory])
 
   return (
     <div className={styles.container}>
@@ -18,24 +28,38 @@ export default async function PortfolioPageContainer({ projectCategory }: Readon
         <h1><TitlePipe text="Meu Portfólio" /></h1>
 
         <div className={styles.buttonsWrapper}>
-          <Link href={"?project-category=all"}>
-            <Button className={(projectCategory === "all") ? styles.active : ''}>Todos</Button>
-          </Link>
-          <Link href={"?project-category=personal"}>
-            <Button className={(projectCategory === "personal") ? styles.active : ''}>Projetos Pessoais</Button>
-          </Link>
-          <Link href={"?project-category=academic"}>
-            <Button className={(projectCategory === "academic") ? styles.active : ''}>Projetos Acadêmicos</Button>
-          </Link>
+          <Button
+            className={projectCategory === 'all' ? styles.active : ''}
+            onClick={() => setProjectCategory('all')}
+          >
+            Todos
+          </Button>
+          <Button
+            className={projectCategory === 'personal' ? styles.active : ''}
+            onClick={() => setProjectCategory('personal')}
+          >
+            Projetos Pessoais
+          </Button>
+          <Button
+            className={projectCategory === 'academic' ? styles.active : ''}
+            onClick={() => setProjectCategory('academic')}
+          >
+            Projetos Acadêmicos
+          </Button>
         </div>
       </div>
 
-      <div className={styles.itemsWrapper}>
-        {projectList?.map((project) => (
-          <ProjectCard content={project} key={project.id} />
-        ))}
-      </div>
+      {projectList
+        ? <div className={styles.itemsWrapper}>
+          {projectList?.map((project) => (
+            <ProjectCard content={project} key={project.id} />
+          ))}
+        </div>
 
+        : <div>
+          Sem itens
+        </div>
+      }
     </div>
   )
 }
