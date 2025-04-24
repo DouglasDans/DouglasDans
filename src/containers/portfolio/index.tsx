@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import TitlePipe from '@/components/title-pipe'
 import styles from './index.module.scss'
-import Link from 'next/link'
 import Button from '@/components/button'
 import { getProjectByCategory } from '@/actions/portfolio.actions'
 import ProjectCard from '@/components/project-card'
