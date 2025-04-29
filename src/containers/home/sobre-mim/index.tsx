@@ -2,6 +2,7 @@ import SocialLinksWrapper from "@/components/social-links-wrapper";
 import TitlePipe from "@/components/title-pipe";
 import styles from './index.module.scss'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import mdStyle from '@/styles/style-modules/markdown.module.scss'
 
 const sobreMimText = `
 Sou um desenvolvedor web fullstack em formação, com foco em **TypeScript** e **React**, atualmente expandindo meus conhecimentos no desenvolvimento **back-end com Java e Spring Boot**.
@@ -21,7 +22,7 @@ export default function SobreMim() {
     <section id="sobre-mim" className={styles.container}>
       <h2><TitlePipe text="Sobre Mim" /></h2>
 
-      <div className={styles.description}>
+      <div className={mdStyle.markdown}>
         <MDXRemote source={sobreMimText} />
       </div>
 

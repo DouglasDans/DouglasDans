@@ -12,7 +12,7 @@ import { useRouter } from 'next/navigation';
 import TechnologyTag from '../tecnology-tag';
 import remarkGfm from 'remark-gfm';
 import remarkBreaks from 'remark-breaks';
-import rehypeRaw from 'rehype-raw';
+import mdStyles from '@/styles/style-modules/markdown.module.scss'
 
 type Props = {
   projectId: string
@@ -52,6 +52,8 @@ export default function Modal({ projectId }: Readonly<Props>) {
     )
   }
 
+  console.log(page.markdownContent);
+
   return (
     <div className={styles.container} onClick={closeModal}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
@@ -87,11 +89,11 @@ export default function Modal({ projectId }: Readonly<Props>) {
             </div>
           </div>
 
-          <div className={styles.text}>
+          <div className={mdStyles.markdown}>
             {page.markdownContent
               ? <ReactMarkdown
-                remarkPlugins={[remarkGfm, remarkBreaks]}
-                rehypePlugins={[rehypeRaw]}>
+                remarkPlugins={[[remarkGfm, remarkBreaks]]}
+                rehypePlugins={[]}>
                 {page.markdownContent}
               </ReactMarkdown>
               : <p>{page.description}</p>}
