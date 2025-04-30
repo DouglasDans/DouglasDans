@@ -3,6 +3,7 @@
 .container{
   margin-top: 80px;
   padding: 50px;
+  min-height: calc(100vh - 250px);
 
   display: flex;
   flex-direction: column;
