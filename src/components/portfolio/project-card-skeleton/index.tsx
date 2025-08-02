@@ -1,4 +1,4 @@
-import Skeleton from '@/components/skeleton'
+import Skeleton from '@/components/ui/skeleton'
 import styles from './index.module.scss'
 
 export default function ProjectCardSkeleton() {

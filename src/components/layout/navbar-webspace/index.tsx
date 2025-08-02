@@ -1,5 +1,5 @@
 import React from 'react'
-import TitlePipe from '../title-pipe'
+import TitlePipe from '../../ui/title-pipe'
 import styles from './index.module.scss'
 import Link from 'next/link'
 

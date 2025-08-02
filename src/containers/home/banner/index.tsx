@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ImageWithTransition from '@/components/image-with-transition';
+import ImageWithTransition from '@/components/ui/image-with-transition';
 import styles from './index.module.scss'
 
 const arrTechs: string[] = ['typescript', 'nextjs', 'react', 'node', 'java', 'spring']

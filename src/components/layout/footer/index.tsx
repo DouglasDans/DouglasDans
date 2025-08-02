@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import TitlePipe from '../title-pipe'
+import TitlePipe from '../../ui/title-pipe'
 import styles from './index.module.scss'
-import Button from '../button'
+import Button from '../../ui/button'
 import SocialLinksWrapper from '../social-links-wrapper'
 
 export default function Footer() {

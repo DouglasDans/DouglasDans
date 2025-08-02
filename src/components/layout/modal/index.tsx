@@ -7,9 +7,9 @@ import { getPageDetails } from '@/actions/portfolio.actions';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
-import Button from '../button';
+import Button from '../../ui/button';
 import { useRouter } from 'next/navigation';
-import TechnologyTag from '../tecnology-tag';
+import TechnologyTag from '../../ui/tecnology-tag';
 import remarkGfm from 'remark-gfm';
 import remarkBreaks from 'remark-breaks';
 import mdStyles from '@/styles/style-modules/markdown.module.scss'

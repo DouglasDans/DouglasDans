@@ -1,5 +1,5 @@
 import Link from "next/link"
-import SocialButton from "./social-button"
+import SocialButton from "../../ui/social-button"
 import Image from "next/image"
 import styles from './index.module.scss'
 

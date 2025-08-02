@@ -1,6 +1,6 @@
-import TitlePipe from '@/components/title-pipe'
+import TitlePipe from '@/components/ui/title-pipe'
 import styles from './index.module.scss'
-import HabilidadesCard from '@/components/habilidades-card'
+import HabilidadesCard from '@/components/portfolio/habilidades-card'
 import skills from "@/data/skills.json"
 
 export default function Habilidades() {

@@ -1,12 +1,12 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import TitlePipe from '@/components/title-pipe'
+import TitlePipe from '@/components/ui/title-pipe'
 import styles from './index.module.scss'
-import Button from '@/components/button'
+import Button from '@/components/ui/button'
 import { getProjectByCategory } from '@/actions/portfolio.actions'
-import ProjectCard from '@/components/project-card'
-import ProjectCardSkeleton from '@/components/project-card-skeleton'
+import ProjectCard from '@/components/portfolio/project-card'
+import ProjectCardSkeleton from '@/components/portfolio/project-card-skeleton'
 import { NotionPage } from '@/services/notion/classes/NotionPage'
 
 export default function PortfolioPageContainer() {

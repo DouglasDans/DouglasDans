@@ -1,5 +1,5 @@
-import SocialLinksWrapper from "@/components/social-links-wrapper";
-import TitlePipe from "@/components/title-pipe";
+import SocialLinksWrapper from "@/components/layout/social-links-wrapper";
+import TitlePipe from "@/components/ui/title-pipe";
 import styles from './index.module.scss'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import mdStyle from '@/styles/style-modules/markdown.module.scss'

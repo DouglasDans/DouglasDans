@@ -1,6 +1,6 @@
-import Footer from '@/components/footer'
-import ModalTrigger from '@/components/modal/trigger'
-import NavbarWebspace from '@/components/navbar-webspace'
+import Footer from '@/components/layout/footer'
+import ModalTrigger from '@/components/layout/modal/trigger'
+import NavbarWebspace from '@/components/layout/navbar-webspace'
 import MainContainer from '@/containers/main-container'
 import React, { Fragment, PropsWithChildren } from 'react'
 

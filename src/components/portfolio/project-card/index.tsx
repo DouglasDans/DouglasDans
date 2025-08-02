@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import ImageWithTransition from '../image-with-transition'
+import ImageWithTransition from '../../ui/image-with-transition'
 import styles from './index.module.scss'
-import Button from '../button'
+import Button from '../../ui/button'
 import { NotionPageData } from '@/services/notion/classes/NotionPage'
 import Link from 'next/link'
 

@@ -1,7 +1,7 @@
-import TitlePipe from "@/components/title-pipe";
+import TitlePipe from "@/components/ui/title-pipe";
 import styles from './index.module.scss';
-import ProjectCard from "@/components/project-card";
-import Button from "@/components/button";
+import ProjectCard from "@/components/portfolio/project-card";
+import Button from "@/components/ui/button";
 import Link from "next/link";
 import { getMainProjects } from "@/actions/portfolio.actions";
 
