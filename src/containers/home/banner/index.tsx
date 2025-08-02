@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ImageWithTransition from '@/components/image-with-transition';
 import styles from './index.module.scss'
 
 const arrTechs: string[] = ['typescript', 'nextjs', 'react', 'node', 'java', 'spring']
@@ -25,7 +26,7 @@ export default function Banner() {
       </div>
 
       <div className={styles.image}>
-        <Image
+        <ImageWithTransition
           src={'/profile.png'}
           height={350}
           width={350}

@@ -1,5 +1,5 @@
-
 import Image from 'next/image'
+import ImageWithTransition from '../image-with-transition'
 import styles from './index.module.scss'
 import Button from '../button'
 import { NotionPageData } from '@/services/notion/classes/NotionPage'
@@ -12,7 +12,7 @@ type Props = {
 export default function ProjectCard({ content }: Readonly<Props>) {
   return (
     <div className={styles.card}>
-      <Image
+      <ImageWithTransition
         className={styles.coverImage}
         src={content.banner || "/portfolio-img/placeholder.png"}
         width={640}
