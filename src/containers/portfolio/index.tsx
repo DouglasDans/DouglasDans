@@ -6,16 +6,20 @@ import styles from './index.module.scss'
 import Button from '@/components/button'
 import { getProjectByCategory } from '@/actions/portfolio.actions'
 import ProjectCard from '@/components/project-card'
+import ProjectCardSkeleton from '@/components/project-card-skeleton'
 import { NotionPage } from '@/services/notion/classes/NotionPage'
 
 export default function PortfolioPageContainer() {
   const [projectCategory, setProjectCategory] = useState('all')
   const [projectList, setProjectList] = useState<NotionPage[]>()
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     const fetchProjects = async () => {
+      setIsLoading(true)
       const projects = await getProjectByCategory(projectCategory)
       setProjectList(projects)
+      setIsLoading(false)
     }
 
     fetchProjects()
@@ -48,17 +52,23 @@ export default function PortfolioPageContainer() {
         </div>
       </div>
 
-      {projectList
-        ? <div className={styles.itemsWrapper}>
-          {projectList?.map((project) => (
+      {isLoading ? (
+        <div className={styles.itemsWrapper}>
+          {Array.from({ length: 6 }).map((_, index) => (
+            <ProjectCardSkeleton key={index} />
+          ))}
+        </div>
+      ) : projectList && projectList.length > 0 ? (
+        <div className={styles.itemsWrapper}>
+          {projectList.map((project) => (
             <ProjectCard content={project} key={project.id} />
           ))}
         </div>
-
-        : <div>
-          Sem itens
+      ) : (
+        <div className={styles.emptyState}>
+          <p>Nenhum projeto encontrado para esta categoria.</p>
         </div>
-      }
+      )}
     </div>
   )
 }
