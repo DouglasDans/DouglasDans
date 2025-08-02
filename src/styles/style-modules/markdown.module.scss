@@ -69,6 +69,7 @@
   a {
     // color: colors.$accent-color;
     text-decoration: underline;
+    transition: all 100ms ease-in-out;
     
     &:hover {
       opacity: 0.8;
