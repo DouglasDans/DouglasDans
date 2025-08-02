@@ -1,6 +1,6 @@
-@use '@/styles/colors';
+@use "@/styles/colors";
 
-.button{
+.button {
   height: 40px;
   width: 40px;
 
@@ -13,12 +13,14 @@
   align-items: center;
   justify-content: center;
 
-  &:hover{
+  transition: all 100ms ease-in-out;
+
+  &:hover {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.7;
   }
 
-  &:active{
+  &:active {
     cursor: pointer;
     opacity: 0.5;
   }
