@@ -91,7 +91,11 @@ export default function Modal({ projectId }: Readonly<Props>) {
               : <p>{page.description}</p>}
           </div>
 
-          {page.tecnologies && <TechnologyTag values={page?.tecnologies} />}
+          {page.tecnologies && (
+            <div className={styles.technologiesWrapper}>
+              <TechnologyTag values={page?.tecnologies} />
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -4,8 +4,11 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-
+  align-items: flex-start;
+  
   width: 100%;
+  position: relative;
+  z-index: 1;
 
   .tag{
     border: 2px solid colors.$background-level2-color;
@@ -15,7 +18,13 @@
     display: flex;
     align-items: center;
     gap: 5px;
-  
-    width: min-content;
+    
+    flex-shrink: 0;
+    white-space: nowrap;
+    position: relative;
+    
+    // Garantir que não haja sobreposição
+    margin: 0;
+    box-sizing: border-box;
   }
 }
