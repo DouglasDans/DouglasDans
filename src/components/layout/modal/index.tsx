@@ -13,6 +13,7 @@ import TechnologyTag from '../../ui/tecnology-tag';
 import remarkGfm from 'remark-gfm';
 import remarkBreaks from 'remark-breaks';
 import mdStyles from '@/styles/style-modules/markdown.module.scss'
+import ProjectModalSkeleton from '../project-modal-skeleton'
 
 type Props = {
   projectId: string
@@ -38,16 +39,7 @@ export default function Modal({ projectId }: Readonly<Props>) {
   if (!page) {
     return (
       <div className={styles.container} onClick={closeModal}>
-        <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
-
-          <button className={styles.closeButton} onClick={closeModal}>
-            <span className='material-symbols-rounded'>close</span>
-          </button>
-
-          <div className={styles.content}>
-            <h2>Carregando...</h2>
-          </div>
-        </div>
+        <ProjectModalSkeleton />
       </div>
     )
   }
